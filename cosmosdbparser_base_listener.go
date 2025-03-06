@@ -73,3 +73,45 @@ func (s *BaseCosmosDBParserListener) EnterContainer_name(ctx *Container_nameCont
 
 // ExitContainer_name is called when production container_name is exited.
 func (s *BaseCosmosDBParserListener) ExitContainer_name(ctx *Container_nameContext) {}
+
+// EnterObject_property_list is called when production object_property_list is entered.
+func (s *BaseCosmosDBParserListener) EnterObject_property_list(ctx *Object_property_listContext) {}
+
+// ExitObject_property_list is called when production object_property_list is exited.
+func (s *BaseCosmosDBParserListener) ExitObject_property_list(ctx *Object_property_listContext) {}
+
+// EnterObject_property is called when production object_property is entered.
+func (s *BaseCosmosDBParserListener) EnterObject_property(ctx *Object_propertyContext) {}
+
+// ExitObject_property is called when production object_property is exited.
+func (s *BaseCosmosDBParserListener) ExitObject_property(ctx *Object_propertyContext) {}
+
+// EnterProperty_alias is called when production property_alias is entered.
+func (s *BaseCosmosDBParserListener) EnterProperty_alias(ctx *Property_aliasContext) {}
+
+// ExitProperty_alias is called when production property_alias is exited.
+func (s *BaseCosmosDBParserListener) ExitProperty_alias(ctx *Property_aliasContext) {}
+
+// EnterScalar_expression is called when production scalar_expression is entered.
+func (s *BaseCosmosDBParserListener) EnterScalar_expression(ctx *Scalar_expressionContext) {}
+
+// ExitScalar_expression is called when production scalar_expression is exited.
+func (s *BaseCosmosDBParserListener) ExitScalar_expression(ctx *Scalar_expressionContext) {}
+
+// EnterProperty_name is called when production property_name is entered.
+func (s *BaseCosmosDBParserListener) EnterProperty_name(ctx *Property_nameContext) {}
+
+// ExitProperty_name is called when production property_name is exited.
+func (s *BaseCosmosDBParserListener) ExitProperty_name(ctx *Property_nameContext) {}
+
+// EnterArray_index is called when production array_index is entered.
+func (s *BaseCosmosDBParserListener) EnterArray_index(ctx *Array_indexContext) {}
+
+// ExitArray_index is called when production array_index is exited.
+func (s *BaseCosmosDBParserListener) ExitArray_index(ctx *Array_indexContext) {}
+
+// EnterInput_alias is called when production input_alias is entered.
+func (s *BaseCosmosDBParserListener) EnterInput_alias(ctx *Input_aliasContext) {}
+
+// ExitInput_alias is called when production input_alias is exited.
+func (s *BaseCosmosDBParserListener) ExitInput_alias(ctx *Input_aliasContext) {}

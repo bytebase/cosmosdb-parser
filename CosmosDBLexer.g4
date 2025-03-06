@@ -33,12 +33,22 @@ fragment Z: [z];
 
 MULTIPLY_OPERATOR: '*';
 
+AS_SYMBOL: 'AS';
 SELECT_SYMBOL: 'SELECT';
 FROM_SYMBOL: 'FROM';
+DISTINCT_SYMBOL: 'DISTINCT';
 
+LS_BRACKET_SYMBOL: '[';
+RS_BRACKET_SYMBOL: ']';
+DOUBLE_QUOTE_SYMBOL: '"';
+COMMA_SYMBOL: ',';
+DOT_SYMBOL: '.';
 /* Identifiers */
 IDENTIFIER: [a-z] [a-z_0-9]*;
 
 // White space handling
 WHITESPACE:
 	[ \t\f\r\n] -> channel(HIDDEN); // Ignore whitespaces.
+
+fragment DECIMAL_DIGIT: [0-9];
+DECIMAL_DIGITS: DECIMAL_DIGIT+;

@@ -34,6 +34,27 @@ type CosmosDBParserListener interface {
 	// EnterContainer_name is called when entering the container_name production.
 	EnterContainer_name(c *Container_nameContext)
 
+	// EnterObject_property_list is called when entering the object_property_list production.
+	EnterObject_property_list(c *Object_property_listContext)
+
+	// EnterObject_property is called when entering the object_property production.
+	EnterObject_property(c *Object_propertyContext)
+
+	// EnterProperty_alias is called when entering the property_alias production.
+	EnterProperty_alias(c *Property_aliasContext)
+
+	// EnterScalar_expression is called when entering the scalar_expression production.
+	EnterScalar_expression(c *Scalar_expressionContext)
+
+	// EnterProperty_name is called when entering the property_name production.
+	EnterProperty_name(c *Property_nameContext)
+
+	// EnterArray_index is called when entering the array_index production.
+	EnterArray_index(c *Array_indexContext)
+
+	// EnterInput_alias is called when entering the input_alias production.
+	EnterInput_alias(c *Input_aliasContext)
+
 	// ExitRoot is called when exiting the root production.
 	ExitRoot(c *RootContext)
 
@@ -60,4 +81,25 @@ type CosmosDBParserListener interface {
 
 	// ExitContainer_name is called when exiting the container_name production.
 	ExitContainer_name(c *Container_nameContext)
+
+	// ExitObject_property_list is called when exiting the object_property_list production.
+	ExitObject_property_list(c *Object_property_listContext)
+
+	// ExitObject_property is called when exiting the object_property production.
+	ExitObject_property(c *Object_propertyContext)
+
+	// ExitProperty_alias is called when exiting the property_alias production.
+	ExitProperty_alias(c *Property_aliasContext)
+
+	// ExitScalar_expression is called when exiting the scalar_expression production.
+	ExitScalar_expression(c *Scalar_expressionContext)
+
+	// ExitProperty_name is called when exiting the property_name production.
+	ExitProperty_name(c *Property_nameContext)
+
+	// ExitArray_index is called when exiting the array_index production.
+	ExitArray_index(c *Array_indexContext)
+
+	// ExitInput_alias is called when exiting the input_alias production.
+	ExitInput_alias(c *Input_aliasContext)
 }
