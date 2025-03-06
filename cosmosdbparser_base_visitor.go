@@ -42,3 +42,31 @@ func (v *BaseCosmosDBParserVisitor) VisitContainer_expression(ctx *Container_exp
 func (v *BaseCosmosDBParserVisitor) VisitContainer_name(ctx *Container_nameContext) interface{} {
 	return v.VisitChildren(ctx)
 }
+
+func (v *BaseCosmosDBParserVisitor) VisitObject_property_list(ctx *Object_property_listContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BaseCosmosDBParserVisitor) VisitObject_property(ctx *Object_propertyContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BaseCosmosDBParserVisitor) VisitProperty_alias(ctx *Property_aliasContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BaseCosmosDBParserVisitor) VisitScalar_expression(ctx *Scalar_expressionContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BaseCosmosDBParserVisitor) VisitProperty_name(ctx *Property_nameContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BaseCosmosDBParserVisitor) VisitArray_index(ctx *Array_indexContext) interface{} {
+	return v.VisitChildren(ctx)
+}
+
+func (v *BaseCosmosDBParserVisitor) VisitInput_alias(ctx *Input_aliasContext) interface{} {
+	return v.VisitChildren(ctx)
+}
