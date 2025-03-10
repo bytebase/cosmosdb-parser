@@ -56,8 +56,8 @@ func cosmosdbparserParserInit() {
 		6, 1, 7, 1, 7, 3, 7, 58, 8, 7, 1, 7, 3, 7, 61, 8, 7, 1, 8, 1, 8, 1, 9,
 		1, 9, 1, 9, 5, 9, 68, 8, 9, 10, 9, 12, 9, 71, 9, 9, 1, 10, 1, 10, 3, 10,
 		75, 8, 10, 1, 10, 3, 10, 78, 8, 10, 1, 11, 1, 11, 1, 12, 1, 12, 1, 12,
-		1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1,
-		12, 1, 12, 3, 12, 97, 8, 12, 5, 12, 99, 8, 12, 10, 12, 12, 12, 102, 9,
+		1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 3,
+		12, 95, 8, 12, 1, 12, 1, 12, 5, 12, 99, 8, 12, 10, 12, 12, 12, 102, 9,
 		12, 1, 13, 1, 13, 1, 14, 1, 14, 1, 15, 1, 15, 1, 15, 0, 1, 24, 16, 0, 2,
 		4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 0, 0, 103, 0, 32,
 		1, 0, 0, 0, 2, 35, 1, 0, 0, 0, 4, 38, 1, 0, 0, 0, 6, 46, 1, 0, 0, 0, 8,
@@ -82,14 +82,14 @@ func cosmosdbparserParserInit() {
 		1, 0, 0, 0, 78, 21, 1, 0, 0, 0, 79, 80, 5, 11, 0, 0, 80, 23, 1, 0, 0, 0,
 		81, 82, 6, 12, -1, 0, 82, 83, 3, 30, 15, 0, 83, 100, 1, 0, 0, 0, 84, 85,
 		10, 2, 0, 0, 85, 86, 5, 10, 0, 0, 86, 99, 3, 26, 13, 0, 87, 88, 10, 1,
-		0, 0, 88, 96, 5, 6, 0, 0, 89, 90, 5, 8, 0, 0, 90, 91, 3, 26, 13, 0, 91,
-		92, 5, 8, 0, 0, 92, 97, 1, 0, 0, 0, 93, 94, 3, 28, 14, 0, 94, 95, 5, 7,
-		0, 0, 95, 97, 1, 0, 0, 0, 96, 89, 1, 0, 0, 0, 96, 93, 1, 0, 0, 0, 97, 99,
+		0, 0, 88, 94, 5, 6, 0, 0, 89, 90, 5, 8, 0, 0, 90, 91, 3, 26, 13, 0, 91,
+		92, 5, 8, 0, 0, 92, 95, 1, 0, 0, 0, 93, 95, 3, 28, 14, 0, 94, 89, 1, 0,
+		0, 0, 94, 93, 1, 0, 0, 0, 95, 96, 1, 0, 0, 0, 96, 97, 5, 7, 0, 0, 97, 99,
 		1, 0, 0, 0, 98, 84, 1, 0, 0, 0, 98, 87, 1, 0, 0, 0, 99, 102, 1, 0, 0, 0,
 		100, 98, 1, 0, 0, 0, 100, 101, 1, 0, 0, 0, 101, 25, 1, 0, 0, 0, 102, 100,
 		1, 0, 0, 0, 103, 104, 5, 11, 0, 0, 104, 27, 1, 0, 0, 0, 105, 106, 5, 13,
 		0, 0, 106, 29, 1, 0, 0, 0, 107, 108, 5, 11, 0, 0, 108, 31, 1, 0, 0, 0,
-		10, 43, 46, 57, 60, 69, 74, 77, 96, 98, 100,
+		10, 43, 46, 57, 60, 69, 74, 77, 94, 98, 100,
 	}
 	deserializer := antlr.NewATNDeserializer(nil)
 	staticData.atn = deserializer.Deserialize(staticData.serializedATN)
@@ -2050,7 +2050,7 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 						goto errorExit
 					}
 				}
-				p.SetState(96)
+				p.SetState(94)
 				p.GetErrorHandler().Sync(p)
 				if p.HasError() {
 					goto errorExit
@@ -2085,18 +2085,17 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 						p.Array_index()
 					}
 
-					{
-						p.SetState(94)
-						p.Match(CosmosDBParserRS_BRACKET_SYMBOL)
-						if p.HasError() {
-							// Recognition error - abort rule
-							goto errorExit
-						}
-					}
-
 				default:
 					p.SetError(antlr.NewNoViableAltException(p, nil, nil, nil, nil, nil))
 					goto errorExit
+				}
+				{
+					p.SetState(96)
+					p.Match(CosmosDBParserRS_BRACKET_SYMBOL)
+					if p.HasError() {
+						// Recognition error - abort rule
+						goto errorExit
+					}
 				}
 
 			case antlr.ATNInvalidAltNumber:

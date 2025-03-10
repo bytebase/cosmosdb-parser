@@ -37,8 +37,8 @@ scalar_expression:
 	| scalar_expression DOT_SYMBOL property_name
 	| scalar_expression LS_BRACKET_SYMBOL (
 		(DOUBLE_QUOTE_SYMBOL property_name DOUBLE_QUOTE_SYMBOL)
-		| (array_index) RS_BRACKET_SYMBOL
-	);
+		| (array_index)
+	) RS_BRACKET_SYMBOL;
 
 property_name: IDENTIFIER;
 
