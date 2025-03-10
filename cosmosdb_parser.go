@@ -48,7 +48,7 @@ func cosmosdbparserParserInit() {
 	}
 	staticData.PredictionContextCache = antlr.NewPredictionContextCache()
 	staticData.serializedATN = []int32{
-		4, 1, 13, 109, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 2, 3, 7, 3, 2, 4, 7,
+		4, 1, 13, 110, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 2, 3, 7, 3, 2, 4, 7,
 		4, 2, 5, 7, 5, 2, 6, 7, 6, 2, 7, 7, 7, 2, 8, 7, 8, 2, 9, 7, 9, 2, 10, 7,
 		10, 2, 11, 7, 11, 2, 12, 7, 12, 2, 13, 7, 13, 2, 14, 7, 14, 2, 15, 7, 15,
 		1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 1, 2, 1, 3, 1, 3, 3, 3,
@@ -56,40 +56,40 @@ func cosmosdbparserParserInit() {
 		6, 1, 7, 1, 7, 3, 7, 58, 8, 7, 1, 7, 3, 7, 61, 8, 7, 1, 8, 1, 8, 1, 9,
 		1, 9, 1, 9, 5, 9, 68, 8, 9, 10, 9, 12, 9, 71, 9, 9, 1, 10, 1, 10, 3, 10,
 		75, 8, 10, 1, 10, 3, 10, 78, 8, 10, 1, 11, 1, 11, 1, 12, 1, 12, 1, 12,
-		1, 12, 1, 12, 3, 12, 87, 8, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12,
-		1, 12, 1, 12, 1, 12, 5, 12, 98, 8, 12, 10, 12, 12, 12, 101, 9, 12, 1, 13,
-		1, 13, 1, 14, 1, 14, 1, 15, 1, 15, 1, 15, 0, 1, 24, 16, 0, 2, 4, 6, 8,
-		10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 0, 0, 102, 0, 32, 1, 0, 0,
-		0, 2, 35, 1, 0, 0, 0, 4, 38, 1, 0, 0, 0, 6, 46, 1, 0, 0, 0, 8, 48, 1, 0,
-		0, 0, 10, 51, 1, 0, 0, 0, 12, 53, 1, 0, 0, 0, 14, 55, 1, 0, 0, 0, 16, 62,
-		1, 0, 0, 0, 18, 64, 1, 0, 0, 0, 20, 72, 1, 0, 0, 0, 22, 79, 1, 0, 0, 0,
-		24, 86, 1, 0, 0, 0, 26, 102, 1, 0, 0, 0, 28, 104, 1, 0, 0, 0, 30, 106,
-		1, 0, 0, 0, 32, 33, 3, 2, 1, 0, 33, 34, 5, 0, 0, 1, 34, 1, 1, 0, 0, 0,
-		35, 36, 3, 4, 2, 0, 36, 37, 3, 8, 4, 0, 37, 3, 1, 0, 0, 0, 38, 39, 5, 3,
-		0, 0, 39, 40, 3, 6, 3, 0, 40, 5, 1, 0, 0, 0, 41, 47, 5, 1, 0, 0, 42, 44,
-		5, 5, 0, 0, 43, 42, 1, 0, 0, 0, 43, 44, 1, 0, 0, 0, 44, 45, 1, 0, 0, 0,
-		45, 47, 3, 18, 9, 0, 46, 41, 1, 0, 0, 0, 46, 43, 1, 0, 0, 0, 47, 7, 1,
-		0, 0, 0, 48, 49, 5, 4, 0, 0, 49, 50, 3, 10, 5, 0, 50, 9, 1, 0, 0, 0, 51,
-		52, 3, 12, 6, 0, 52, 11, 1, 0, 0, 0, 53, 54, 3, 14, 7, 0, 54, 13, 1, 0,
-		0, 0, 55, 60, 3, 16, 8, 0, 56, 58, 5, 2, 0, 0, 57, 56, 1, 0, 0, 0, 57,
-		58, 1, 0, 0, 0, 58, 59, 1, 0, 0, 0, 59, 61, 5, 11, 0, 0, 60, 57, 1, 0,
-		0, 0, 60, 61, 1, 0, 0, 0, 61, 15, 1, 0, 0, 0, 62, 63, 5, 11, 0, 0, 63,
-		17, 1, 0, 0, 0, 64, 69, 3, 20, 10, 0, 65, 66, 5, 9, 0, 0, 66, 68, 3, 20,
-		10, 0, 67, 65, 1, 0, 0, 0, 68, 71, 1, 0, 0, 0, 69, 67, 1, 0, 0, 0, 69,
-		70, 1, 0, 0, 0, 70, 19, 1, 0, 0, 0, 71, 69, 1, 0, 0, 0, 72, 77, 3, 24,
-		12, 0, 73, 75, 5, 2, 0, 0, 74, 73, 1, 0, 0, 0, 74, 75, 1, 0, 0, 0, 75,
-		76, 1, 0, 0, 0, 76, 78, 3, 22, 11, 0, 77, 74, 1, 0, 0, 0, 77, 78, 1, 0,
-		0, 0, 78, 21, 1, 0, 0, 0, 79, 80, 5, 11, 0, 0, 80, 23, 1, 0, 0, 0, 81,
-		82, 6, 12, -1, 0, 82, 87, 3, 30, 15, 0, 83, 84, 3, 28, 14, 0, 84, 85, 5,
-		7, 0, 0, 85, 87, 1, 0, 0, 0, 86, 81, 1, 0, 0, 0, 86, 83, 1, 0, 0, 0, 87,
-		99, 1, 0, 0, 0, 88, 89, 10, 3, 0, 0, 89, 90, 5, 10, 0, 0, 90, 98, 3, 26,
-		13, 0, 91, 92, 10, 2, 0, 0, 92, 93, 5, 6, 0, 0, 93, 94, 5, 8, 0, 0, 94,
-		95, 3, 26, 13, 0, 95, 96, 5, 8, 0, 0, 96, 98, 1, 0, 0, 0, 97, 88, 1, 0,
-		0, 0, 97, 91, 1, 0, 0, 0, 98, 101, 1, 0, 0, 0, 99, 97, 1, 0, 0, 0, 99,
-		100, 1, 0, 0, 0, 100, 25, 1, 0, 0, 0, 101, 99, 1, 0, 0, 0, 102, 103, 5,
-		11, 0, 0, 103, 27, 1, 0, 0, 0, 104, 105, 5, 13, 0, 0, 105, 29, 1, 0, 0,
-		0, 106, 107, 5, 11, 0, 0, 107, 31, 1, 0, 0, 0, 10, 43, 46, 57, 60, 69,
-		74, 77, 86, 97, 99,
+		1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1, 12, 1,
+		12, 1, 12, 3, 12, 97, 8, 12, 5, 12, 99, 8, 12, 10, 12, 12, 12, 102, 9,
+		12, 1, 13, 1, 13, 1, 14, 1, 14, 1, 15, 1, 15, 1, 15, 0, 1, 24, 16, 0, 2,
+		4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 0, 0, 103, 0, 32,
+		1, 0, 0, 0, 2, 35, 1, 0, 0, 0, 4, 38, 1, 0, 0, 0, 6, 46, 1, 0, 0, 0, 8,
+		48, 1, 0, 0, 0, 10, 51, 1, 0, 0, 0, 12, 53, 1, 0, 0, 0, 14, 55, 1, 0, 0,
+		0, 16, 62, 1, 0, 0, 0, 18, 64, 1, 0, 0, 0, 20, 72, 1, 0, 0, 0, 22, 79,
+		1, 0, 0, 0, 24, 81, 1, 0, 0, 0, 26, 103, 1, 0, 0, 0, 28, 105, 1, 0, 0,
+		0, 30, 107, 1, 0, 0, 0, 32, 33, 3, 2, 1, 0, 33, 34, 5, 0, 0, 1, 34, 1,
+		1, 0, 0, 0, 35, 36, 3, 4, 2, 0, 36, 37, 3, 8, 4, 0, 37, 3, 1, 0, 0, 0,
+		38, 39, 5, 3, 0, 0, 39, 40, 3, 6, 3, 0, 40, 5, 1, 0, 0, 0, 41, 47, 5, 1,
+		0, 0, 42, 44, 5, 5, 0, 0, 43, 42, 1, 0, 0, 0, 43, 44, 1, 0, 0, 0, 44, 45,
+		1, 0, 0, 0, 45, 47, 3, 18, 9, 0, 46, 41, 1, 0, 0, 0, 46, 43, 1, 0, 0, 0,
+		47, 7, 1, 0, 0, 0, 48, 49, 5, 4, 0, 0, 49, 50, 3, 10, 5, 0, 50, 9, 1, 0,
+		0, 0, 51, 52, 3, 12, 6, 0, 52, 11, 1, 0, 0, 0, 53, 54, 3, 14, 7, 0, 54,
+		13, 1, 0, 0, 0, 55, 60, 3, 16, 8, 0, 56, 58, 5, 2, 0, 0, 57, 56, 1, 0,
+		0, 0, 57, 58, 1, 0, 0, 0, 58, 59, 1, 0, 0, 0, 59, 61, 5, 11, 0, 0, 60,
+		57, 1, 0, 0, 0, 60, 61, 1, 0, 0, 0, 61, 15, 1, 0, 0, 0, 62, 63, 5, 11,
+		0, 0, 63, 17, 1, 0, 0, 0, 64, 69, 3, 20, 10, 0, 65, 66, 5, 9, 0, 0, 66,
+		68, 3, 20, 10, 0, 67, 65, 1, 0, 0, 0, 68, 71, 1, 0, 0, 0, 69, 67, 1, 0,
+		0, 0, 69, 70, 1, 0, 0, 0, 70, 19, 1, 0, 0, 0, 71, 69, 1, 0, 0, 0, 72, 77,
+		3, 24, 12, 0, 73, 75, 5, 2, 0, 0, 74, 73, 1, 0, 0, 0, 74, 75, 1, 0, 0,
+		0, 75, 76, 1, 0, 0, 0, 76, 78, 3, 22, 11, 0, 77, 74, 1, 0, 0, 0, 77, 78,
+		1, 0, 0, 0, 78, 21, 1, 0, 0, 0, 79, 80, 5, 11, 0, 0, 80, 23, 1, 0, 0, 0,
+		81, 82, 6, 12, -1, 0, 82, 83, 3, 30, 15, 0, 83, 100, 1, 0, 0, 0, 84, 85,
+		10, 2, 0, 0, 85, 86, 5, 10, 0, 0, 86, 99, 3, 26, 13, 0, 87, 88, 10, 1,
+		0, 0, 88, 96, 5, 6, 0, 0, 89, 90, 5, 8, 0, 0, 90, 91, 3, 26, 13, 0, 91,
+		92, 5, 8, 0, 0, 92, 97, 1, 0, 0, 0, 93, 94, 3, 28, 14, 0, 94, 95, 5, 7,
+		0, 0, 95, 97, 1, 0, 0, 0, 96, 89, 1, 0, 0, 0, 96, 93, 1, 0, 0, 0, 97, 99,
+		1, 0, 0, 0, 98, 84, 1, 0, 0, 0, 98, 87, 1, 0, 0, 0, 99, 102, 1, 0, 0, 0,
+		100, 98, 1, 0, 0, 0, 100, 101, 1, 0, 0, 0, 101, 25, 1, 0, 0, 0, 102, 100,
+		1, 0, 0, 0, 103, 104, 5, 11, 0, 0, 104, 27, 1, 0, 0, 0, 105, 106, 5, 13,
+		0, 0, 106, 29, 1, 0, 0, 0, 107, 108, 5, 11, 0, 0, 108, 31, 1, 0, 0, 0,
+		10, 43, 46, 57, 60, 69, 74, 77, 96, 98, 100,
 	}
 	deserializer := antlr.NewATNDeserializer(nil)
 	staticData.atn = deserializer.Deserialize(staticData.serializedATN)
@@ -677,7 +677,7 @@ func (p *CosmosDBParser) Select_specification() (localctx ISelect_specificationC
 			}
 		}
 
-	case CosmosDBParserDISTINCT_SYMBOL, CosmosDBParserIDENTIFIER, CosmosDBParserDECIMAL_DIGITS:
+	case CosmosDBParserDISTINCT_SYMBOL, CosmosDBParserIDENTIFIER:
 		p.EnterOuterAlt(localctx, 2)
 		p.SetState(43)
 		p.GetErrorHandler().Sync(p)
@@ -1808,14 +1808,14 @@ type IScalar_expressionContext interface {
 
 	// Getter signatures
 	Input_alias() IInput_aliasContext
-	Array_index() IArray_indexContext
-	RS_BRACKET_SYMBOL() antlr.TerminalNode
 	Scalar_expression() IScalar_expressionContext
 	DOT_SYMBOL() antlr.TerminalNode
 	Property_name() IProperty_nameContext
 	LS_BRACKET_SYMBOL() antlr.TerminalNode
+	RS_BRACKET_SYMBOL() antlr.TerminalNode
 	AllDOUBLE_QUOTE_SYMBOL() []antlr.TerminalNode
 	DOUBLE_QUOTE_SYMBOL(i int) antlr.TerminalNode
+	Array_index() IArray_indexContext
 
 	// IsScalar_expressionContext differentiates from other interfaces.
 	IsScalar_expressionContext()
@@ -1869,26 +1869,6 @@ func (s *Scalar_expressionContext) Input_alias() IInput_aliasContext {
 	return t.(IInput_aliasContext)
 }
 
-func (s *Scalar_expressionContext) Array_index() IArray_indexContext {
-	var t antlr.RuleContext
-	for _, ctx := range s.GetChildren() {
-		if _, ok := ctx.(IArray_indexContext); ok {
-			t = ctx.(antlr.RuleContext)
-			break
-		}
-	}
-
-	if t == nil {
-		return nil
-	}
-
-	return t.(IArray_indexContext)
-}
-
-func (s *Scalar_expressionContext) RS_BRACKET_SYMBOL() antlr.TerminalNode {
-	return s.GetToken(CosmosDBParserRS_BRACKET_SYMBOL, 0)
-}
-
 func (s *Scalar_expressionContext) Scalar_expression() IScalar_expressionContext {
 	var t antlr.RuleContext
 	for _, ctx := range s.GetChildren() {
@@ -1929,12 +1909,32 @@ func (s *Scalar_expressionContext) LS_BRACKET_SYMBOL() antlr.TerminalNode {
 	return s.GetToken(CosmosDBParserLS_BRACKET_SYMBOL, 0)
 }
 
+func (s *Scalar_expressionContext) RS_BRACKET_SYMBOL() antlr.TerminalNode {
+	return s.GetToken(CosmosDBParserRS_BRACKET_SYMBOL, 0)
+}
+
 func (s *Scalar_expressionContext) AllDOUBLE_QUOTE_SYMBOL() []antlr.TerminalNode {
 	return s.GetTokens(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
 }
 
 func (s *Scalar_expressionContext) DOUBLE_QUOTE_SYMBOL(i int) antlr.TerminalNode {
 	return s.GetToken(CosmosDBParserDOUBLE_QUOTE_SYMBOL, i)
+}
+
+func (s *Scalar_expressionContext) Array_index() IArray_indexContext {
+	var t antlr.RuleContext
+	for _, ctx := range s.GetChildren() {
+		if _, ok := ctx.(IArray_indexContext); ok {
+			t = ctx.(antlr.RuleContext)
+			break
+		}
+	}
+
+	if t == nil {
+		return nil
+	}
+
+	return t.(IArray_indexContext)
 }
 
 func (s *Scalar_expressionContext) GetRuleContext() antlr.RuleContext {
@@ -1983,39 +1983,13 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 	var _alt int
 
 	p.EnterOuterAlt(localctx, 1)
-	p.SetState(86)
-	p.GetErrorHandler().Sync(p)
-	if p.HasError() {
-		goto errorExit
+	{
+		p.SetState(82)
+		p.Input_alias()
 	}
 
-	switch p.GetTokenStream().LA(1) {
-	case CosmosDBParserIDENTIFIER:
-		{
-			p.SetState(82)
-			p.Input_alias()
-		}
-
-	case CosmosDBParserDECIMAL_DIGITS:
-		{
-			p.SetState(83)
-			p.Array_index()
-		}
-		{
-			p.SetState(84)
-			p.Match(CosmosDBParserRS_BRACKET_SYMBOL)
-			if p.HasError() {
-				// Recognition error - abort rule
-				goto errorExit
-			}
-		}
-
-	default:
-		p.SetError(antlr.NewNoViableAltException(p, nil, nil, nil, nil, nil))
-		goto errorExit
-	}
 	p.GetParserRuleContext().SetStop(p.GetTokenStream().LT(-1))
-	p.SetState(99)
+	p.SetState(100)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -2030,7 +2004,7 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 				p.TriggerExitRuleEvent()
 			}
 			_prevctx = localctx
-			p.SetState(97)
+			p.SetState(98)
 			p.GetErrorHandler().Sync(p)
 			if p.HasError() {
 				goto errorExit
@@ -2040,14 +2014,14 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 			case 1:
 				localctx = NewScalar_expressionContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression)
-				p.SetState(88)
+				p.SetState(84)
 
-				if !(p.Precpred(p.GetParserRuleContext(), 3)) {
-					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 3)", ""))
+				if !(p.Precpred(p.GetParserRuleContext(), 2)) {
+					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 2)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(89)
+					p.SetState(85)
 					p.Match(CosmosDBParserDOT_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -2055,47 +2029,74 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 					}
 				}
 				{
-					p.SetState(90)
+					p.SetState(86)
 					p.Property_name()
 				}
 
 			case 2:
 				localctx = NewScalar_expressionContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression)
-				p.SetState(91)
+				p.SetState(87)
 
-				if !(p.Precpred(p.GetParserRuleContext(), 2)) {
-					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 2)", ""))
+				if !(p.Precpred(p.GetParserRuleContext(), 1)) {
+					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 1)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(92)
+					p.SetState(88)
 					p.Match(CosmosDBParserLS_BRACKET_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
 						goto errorExit
 					}
 				}
+				p.SetState(96)
+				p.GetErrorHandler().Sync(p)
+				if p.HasError() {
+					goto errorExit
+				}
 
-				{
-					p.SetState(93)
-					p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
-					if p.HasError() {
-						// Recognition error - abort rule
-						goto errorExit
+				switch p.GetTokenStream().LA(1) {
+				case CosmosDBParserDOUBLE_QUOTE_SYMBOL:
+					{
+						p.SetState(89)
+						p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
+						if p.HasError() {
+							// Recognition error - abort rule
+							goto errorExit
+						}
 					}
-				}
-				{
-					p.SetState(94)
-					p.Property_name()
-				}
-				{
-					p.SetState(95)
-					p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
-					if p.HasError() {
-						// Recognition error - abort rule
-						goto errorExit
+					{
+						p.SetState(90)
+						p.Property_name()
 					}
+					{
+						p.SetState(91)
+						p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
+						if p.HasError() {
+							// Recognition error - abort rule
+							goto errorExit
+						}
+					}
+
+				case CosmosDBParserDECIMAL_DIGITS:
+					{
+						p.SetState(93)
+						p.Array_index()
+					}
+
+					{
+						p.SetState(94)
+						p.Match(CosmosDBParserRS_BRACKET_SYMBOL)
+						if p.HasError() {
+							// Recognition error - abort rule
+							goto errorExit
+						}
+					}
+
+				default:
+					p.SetError(antlr.NewNoViableAltException(p, nil, nil, nil, nil, nil))
+					goto errorExit
 				}
 
 			case antlr.ATNInvalidAltNumber:
@@ -2103,7 +2104,7 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 			}
 
 		}
-		p.SetState(101)
+		p.SetState(102)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -2212,7 +2213,7 @@ func (p *CosmosDBParser) Property_name() (localctx IProperty_nameContext) {
 	p.EnterRule(localctx, 26, CosmosDBParserRULE_property_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(102)
+		p.SetState(103)
 		p.Match(CosmosDBParserIDENTIFIER)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -2318,7 +2319,7 @@ func (p *CosmosDBParser) Array_index() (localctx IArray_indexContext) {
 	p.EnterRule(localctx, 28, CosmosDBParserRULE_array_index)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(104)
+		p.SetState(105)
 		p.Match(CosmosDBParserDECIMAL_DIGITS)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -2424,7 +2425,7 @@ func (p *CosmosDBParser) Input_alias() (localctx IInput_aliasContext) {
 	p.EnterRule(localctx, 30, CosmosDBParserRULE_input_alias)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(106)
+		p.SetState(107)
 		p.Match(CosmosDBParserIDENTIFIER)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -2462,10 +2463,10 @@ func (p *CosmosDBParser) Sempred(localctx antlr.RuleContext, ruleIndex, predInde
 func (p *CosmosDBParser) Scalar_expression_Sempred(localctx antlr.RuleContext, predIndex int) bool {
 	switch predIndex {
 	case 0:
-		return p.Precpred(p.GetParserRuleContext(), 3)
+		return p.Precpred(p.GetParserRuleContext(), 2)
 
 	case 1:
-		return p.Precpred(p.GetParserRuleContext(), 2)
+		return p.Precpred(p.GetParserRuleContext(), 1)
 
 	default:
 		panic("No predicate with index: " + fmt.Sprint(predIndex))

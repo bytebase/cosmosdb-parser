@@ -35,10 +35,10 @@ property_alias: IDENTIFIER;
 scalar_expression:
 	input_alias
 	| scalar_expression DOT_SYMBOL property_name
-	| scalar_expression '[' (
-		DOUBLE_QUOTE_SYMBOL property_name DOUBLE_QUOTE_SYMBOL
-	)
-	| array_index ']';
+	| scalar_expression LS_BRACKET_SYMBOL (
+		(DOUBLE_QUOTE_SYMBOL property_name DOUBLE_QUOTE_SYMBOL)
+		| (array_index) RS_BRACKET_SYMBOL
+	);
 
 property_name: IDENTIFIER;
 
