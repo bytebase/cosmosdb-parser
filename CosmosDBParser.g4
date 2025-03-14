@@ -48,6 +48,8 @@ scalar_expression_in_where:
 	constant
 	| input_alias
 	| parameter_name
+	| scalar_expression_in_where AND_SYMBOL scalar_expression_in_where
+	| scalar_expression_in_where OR_SYMBOL scalar_expression_in_where
 	| scalar_expression_in_where DOT_SYMBOL property_name
 	| scalar_expression_in_where LS_BRACKET_SYMBOL (
 		(DOUBLE_QUOTE_SYMBOL property_name DOUBLE_QUOTE_SYMBOL)
@@ -55,7 +57,8 @@ scalar_expression_in_where:
 	) RS_BRACKET_SYMBOL
 	| unary_operator scalar_expression_in_where
 	| scalar_expression_in_where binary_operator scalar_expression_in_where
-	| scalar_expression_in_where QUESTION_MARK_SYMBOL scalar_expression_in_where COLON_SYMBOL scalar_expression_in_where
+	| scalar_expression_in_where QUESTION_MARK_SYMBOL scalar_expression_in_where COLON_SYMBOL
+		scalar_expression_in_where
 	| scalar_function_expression
 	| create_object_expression
 	| create_array_expression
@@ -88,7 +91,7 @@ binary_operator:
 	| BIT_AND_SYMBOL
 	| BIT_XOR_SYMBOL
 	| BIT_OR_SYMBOL
-	| OR_SYMBOL
+	| DOUBLE_BAR_SYMBOL
 	| EUQAL_SYMBOL;
 
 unary_operator: BIT_NOT_SYMBOL | PLUS_SYMBOL | MINUS_SYMBOL;
