@@ -47,7 +47,7 @@ func cosmosdbparserParserInit() {
 		"SINGLE_QUOTE_SYMBOL", "DOUBLE_QUOTE_SYMBOL", "COMMA_SYMBOL", "DOT_SYMBOL",
 		"QUESTION_MARK_SYMBOL", "COLON_SYMBOL", "PLUS_SYMBOL", "MINUS_SYMBOL",
 		"BIT_NOT_SYMBOL", "DIVIDE_SYMBOL", "MODULO_SYMBOL", "BIT_AND_SYMBOL",
-		"BIT_OR_SYMBOL", "DOUBLE_BAR_SYMBOL", "BIT_XOR_SYMBOL", "EUQAL_SYMBOL",
+		"BIT_OR_SYMBOL", "DOUBLE_BAR_SYMBOL", "BIT_XOR_SYMBOL", "EQUAL_SYMBOL",
 		"IDENTIFIER", "WHITESPACE", "DECIMAL", "REAL", "FLOAT", "HEXADECIMAL",
 		"STRING_LITERAL",
 	}
@@ -271,7 +271,7 @@ const (
 	CosmosDBParserBIT_OR_SYMBOL        = 34
 	CosmosDBParserDOUBLE_BAR_SYMBOL    = 35
 	CosmosDBParserBIT_XOR_SYMBOL       = 36
-	CosmosDBParserEUQAL_SYMBOL         = 37
+	CosmosDBParserEQUAL_SYMBOL         = 37
 	CosmosDBParserIDENTIFIER           = 38
 	CosmosDBParserWHITESPACE           = 39
 	CosmosDBParserDECIMAL              = 40
@@ -3983,7 +3983,7 @@ type IBinary_operatorContext interface {
 	BIT_XOR_SYMBOL() antlr.TerminalNode
 	BIT_OR_SYMBOL() antlr.TerminalNode
 	DOUBLE_BAR_SYMBOL() antlr.TerminalNode
-	EUQAL_SYMBOL() antlr.TerminalNode
+	EQUAL_SYMBOL() antlr.TerminalNode
 
 	// IsBinary_operatorContext differentiates from other interfaces.
 	IsBinary_operatorContext()
@@ -4057,8 +4057,8 @@ func (s *Binary_operatorContext) DOUBLE_BAR_SYMBOL() antlr.TerminalNode {
 	return s.GetToken(CosmosDBParserDOUBLE_BAR_SYMBOL, 0)
 }
 
-func (s *Binary_operatorContext) EUQAL_SYMBOL() antlr.TerminalNode {
-	return s.GetToken(CosmosDBParserEUQAL_SYMBOL, 0)
+func (s *Binary_operatorContext) EQUAL_SYMBOL() antlr.TerminalNode {
+	return s.GetToken(CosmosDBParserEQUAL_SYMBOL, 0)
 }
 
 func (s *Binary_operatorContext) GetRuleContext() antlr.RuleContext {

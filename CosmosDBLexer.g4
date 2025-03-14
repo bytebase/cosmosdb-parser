@@ -69,7 +69,7 @@ BIT_AND_SYMBOL: '&';
 BIT_OR_SYMBOL: '|';
 DOUBLE_BAR_SYMBOL: '||';
 BIT_XOR_SYMBOL: '^';
-EUQAL_SYMBOL: '=';
+EQUAL_SYMBOL: '=';
 
 /* Identifiers */
 IDENTIFIER: [a-z] [a-z_0-9]*;
