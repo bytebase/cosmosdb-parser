@@ -74,12 +74,16 @@ scalar_function_expression:
 
 udf_scalar_function_expression:
 	UDF_SYMBOL DOT_SYMBOL IDENTIFIER LR_BRACKET_SYMBOL (
-		scalar_expression (COMMA_SYMBOL scalar_expression)*
+		scalar_expression_in_where (
+			COMMA_SYMBOL scalar_expression_in_where
+		)*
 	) RR_BRACKET_SYMBOL;
 
 builtin_function_expression:
 	IDENTIFIER LR_BRACKET_SYMBOL (
-		scalar_expression (COMMA_SYMBOL scalar_expression)*
+		scalar_expression_in_where (
+			COMMA_SYMBOL scalar_expression_in_where
+		)*
 	) RR_BRACKET_SYMBOL;
 
 binary_operator:

@@ -161,12 +161,12 @@ func cosmosdbparserParserInit() {
 		205, 206, 3, 48, 24, 0, 206, 33, 1, 0, 0, 0, 207, 210, 3, 36, 18, 0, 208,
 		210, 3, 38, 19, 0, 209, 207, 1, 0, 0, 0, 209, 208, 1, 0, 0, 0, 210, 35,
 		1, 0, 0, 0, 211, 212, 5, 11, 0, 0, 212, 213, 5, 25, 0, 0, 213, 214, 5,
-		38, 0, 0, 214, 215, 5, 20, 0, 0, 215, 220, 3, 26, 13, 0, 216, 217, 5, 24,
-		0, 0, 217, 219, 3, 26, 13, 0, 218, 216, 1, 0, 0, 0, 219, 222, 1, 0, 0,
+		38, 0, 0, 214, 215, 5, 20, 0, 0, 215, 220, 3, 28, 14, 0, 216, 217, 5, 24,
+		0, 0, 217, 219, 3, 28, 14, 0, 218, 216, 1, 0, 0, 0, 219, 222, 1, 0, 0,
 		0, 220, 218, 1, 0, 0, 0, 220, 221, 1, 0, 0, 0, 221, 223, 1, 0, 0, 0, 222,
 		220, 1, 0, 0, 0, 223, 224, 5, 21, 0, 0, 224, 37, 1, 0, 0, 0, 225, 226,
-		5, 38, 0, 0, 226, 227, 5, 20, 0, 0, 227, 232, 3, 26, 13, 0, 228, 229, 5,
-		24, 0, 0, 229, 231, 3, 26, 13, 0, 230, 228, 1, 0, 0, 0, 231, 234, 1, 0,
+		5, 38, 0, 0, 226, 227, 5, 20, 0, 0, 227, 232, 3, 28, 14, 0, 228, 229, 5,
+		24, 0, 0, 229, 231, 3, 28, 14, 0, 230, 228, 1, 0, 0, 0, 231, 234, 1, 0,
 		0, 0, 232, 230, 1, 0, 0, 0, 232, 233, 1, 0, 0, 0, 233, 235, 1, 0, 0, 0,
 		234, 232, 1, 0, 0, 0, 235, 236, 5, 21, 0, 0, 236, 39, 1, 0, 0, 0, 237,
 		238, 7, 0, 0, 0, 238, 41, 1, 0, 0, 0, 239, 240, 7, 1, 0, 0, 240, 43, 1,
@@ -3511,8 +3511,8 @@ type IUdf_scalar_function_expressionContext interface {
 	IDENTIFIER() antlr.TerminalNode
 	LR_BRACKET_SYMBOL() antlr.TerminalNode
 	RR_BRACKET_SYMBOL() antlr.TerminalNode
-	AllScalar_expression() []IScalar_expressionContext
-	Scalar_expression(i int) IScalar_expressionContext
+	AllScalar_expression_in_where() []IScalar_expression_in_whereContext
+	Scalar_expression_in_where(i int) IScalar_expression_in_whereContext
 	AllCOMMA_SYMBOL() []antlr.TerminalNode
 	COMMA_SYMBOL(i int) antlr.TerminalNode
 
@@ -3572,20 +3572,20 @@ func (s *Udf_scalar_function_expressionContext) RR_BRACKET_SYMBOL() antlr.Termin
 	return s.GetToken(CosmosDBParserRR_BRACKET_SYMBOL, 0)
 }
 
-func (s *Udf_scalar_function_expressionContext) AllScalar_expression() []IScalar_expressionContext {
+func (s *Udf_scalar_function_expressionContext) AllScalar_expression_in_where() []IScalar_expression_in_whereContext {
 	children := s.GetChildren()
 	len := 0
 	for _, ctx := range children {
-		if _, ok := ctx.(IScalar_expressionContext); ok {
+		if _, ok := ctx.(IScalar_expression_in_whereContext); ok {
 			len++
 		}
 	}
 
-	tst := make([]IScalar_expressionContext, len)
+	tst := make([]IScalar_expression_in_whereContext, len)
 	i := 0
 	for _, ctx := range children {
-		if t, ok := ctx.(IScalar_expressionContext); ok {
-			tst[i] = t.(IScalar_expressionContext)
+		if t, ok := ctx.(IScalar_expression_in_whereContext); ok {
+			tst[i] = t.(IScalar_expression_in_whereContext)
 			i++
 		}
 	}
@@ -3593,11 +3593,11 @@ func (s *Udf_scalar_function_expressionContext) AllScalar_expression() []IScalar
 	return tst
 }
 
-func (s *Udf_scalar_function_expressionContext) Scalar_expression(i int) IScalar_expressionContext {
+func (s *Udf_scalar_function_expressionContext) Scalar_expression_in_where(i int) IScalar_expression_in_whereContext {
 	var t antlr.RuleContext
 	j := 0
 	for _, ctx := range s.GetChildren() {
-		if _, ok := ctx.(IScalar_expressionContext); ok {
+		if _, ok := ctx.(IScalar_expression_in_whereContext); ok {
 			if j == i {
 				t = ctx.(antlr.RuleContext)
 				break
@@ -3610,7 +3610,7 @@ func (s *Udf_scalar_function_expressionContext) Scalar_expression(i int) IScalar
 		return nil
 	}
 
-	return t.(IScalar_expressionContext)
+	return t.(IScalar_expression_in_whereContext)
 }
 
 func (s *Udf_scalar_function_expressionContext) AllCOMMA_SYMBOL() []antlr.TerminalNode {
@@ -3692,7 +3692,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 
 	{
 		p.SetState(215)
-		p.scalar_expression(0)
+		p.scalar_expression_in_where(0)
 	}
 	p.SetState(220)
 	p.GetErrorHandler().Sync(p)
@@ -3712,7 +3712,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 		}
 		{
 			p.SetState(217)
-			p.scalar_expression(0)
+			p.scalar_expression_in_where(0)
 		}
 
 		p.SetState(222)
@@ -3756,8 +3756,8 @@ type IBuiltin_function_expressionContext interface {
 	IDENTIFIER() antlr.TerminalNode
 	LR_BRACKET_SYMBOL() antlr.TerminalNode
 	RR_BRACKET_SYMBOL() antlr.TerminalNode
-	AllScalar_expression() []IScalar_expressionContext
-	Scalar_expression(i int) IScalar_expressionContext
+	AllScalar_expression_in_where() []IScalar_expression_in_whereContext
+	Scalar_expression_in_where(i int) IScalar_expression_in_whereContext
 	AllCOMMA_SYMBOL() []antlr.TerminalNode
 	COMMA_SYMBOL(i int) antlr.TerminalNode
 
@@ -3809,20 +3809,20 @@ func (s *Builtin_function_expressionContext) RR_BRACKET_SYMBOL() antlr.TerminalN
 	return s.GetToken(CosmosDBParserRR_BRACKET_SYMBOL, 0)
 }
 
-func (s *Builtin_function_expressionContext) AllScalar_expression() []IScalar_expressionContext {
+func (s *Builtin_function_expressionContext) AllScalar_expression_in_where() []IScalar_expression_in_whereContext {
 	children := s.GetChildren()
 	len := 0
 	for _, ctx := range children {
-		if _, ok := ctx.(IScalar_expressionContext); ok {
+		if _, ok := ctx.(IScalar_expression_in_whereContext); ok {
 			len++
 		}
 	}
 
-	tst := make([]IScalar_expressionContext, len)
+	tst := make([]IScalar_expression_in_whereContext, len)
 	i := 0
 	for _, ctx := range children {
-		if t, ok := ctx.(IScalar_expressionContext); ok {
-			tst[i] = t.(IScalar_expressionContext)
+		if t, ok := ctx.(IScalar_expression_in_whereContext); ok {
+			tst[i] = t.(IScalar_expression_in_whereContext)
 			i++
 		}
 	}
@@ -3830,11 +3830,11 @@ func (s *Builtin_function_expressionContext) AllScalar_expression() []IScalar_ex
 	return tst
 }
 
-func (s *Builtin_function_expressionContext) Scalar_expression(i int) IScalar_expressionContext {
+func (s *Builtin_function_expressionContext) Scalar_expression_in_where(i int) IScalar_expression_in_whereContext {
 	var t antlr.RuleContext
 	j := 0
 	for _, ctx := range s.GetChildren() {
-		if _, ok := ctx.(IScalar_expressionContext); ok {
+		if _, ok := ctx.(IScalar_expression_in_whereContext); ok {
 			if j == i {
 				t = ctx.(antlr.RuleContext)
 				break
@@ -3847,7 +3847,7 @@ func (s *Builtin_function_expressionContext) Scalar_expression(i int) IScalar_ex
 		return nil
 	}
 
-	return t.(IScalar_expressionContext)
+	return t.(IScalar_expression_in_whereContext)
 }
 
 func (s *Builtin_function_expressionContext) AllCOMMA_SYMBOL() []antlr.TerminalNode {
@@ -3913,7 +3913,7 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 
 	{
 		p.SetState(227)
-		p.scalar_expression(0)
+		p.scalar_expression_in_where(0)
 	}
 	p.SetState(232)
 	p.GetErrorHandler().Sync(p)
@@ -3933,7 +3933,7 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 		}
 		{
 			p.SetState(229)
-			p.scalar_expression(0)
+			p.scalar_expression_in_where(0)
 		}
 
 		p.SetState(234)
