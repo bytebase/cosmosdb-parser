@@ -38,7 +38,7 @@ scalar_expression:
 	input_alias
 	| scalar_expression DOT_SYMBOL property_name
 	| scalar_expression LS_BRACKET_SYMBOL (
-		(DOUBLE_QUOTE_SYMBOL property_name DOUBLE_QUOTE_SYMBOL)
+		(DOUBLE_QUOTE_STRING_LITERAL)
 		| (array_index)
 	) RS_BRACKET_SYMBOL
 	| unary_operator scalar_expression;
@@ -53,7 +53,7 @@ scalar_expression_in_where:
 	| scalar_expression_in_where OR_SYMBOL scalar_expression_in_where
 	| scalar_expression_in_where DOT_SYMBOL property_name
 	| scalar_expression_in_where LS_BRACKET_SYMBOL (
-		(DOUBLE_QUOTE_SYMBOL property_name DOUBLE_QUOTE_SYMBOL)
+		(DOUBLE_QUOTE_STRING_LITERAL)
 		| (array_index)
 	) RS_BRACKET_SYMBOL
 	| unary_operator scalar_expression_in_where
@@ -138,7 +138,9 @@ boolean_constant: TRUE_SYMBOL | FALSE_SYMBOL;
 
 number_constant: decimal_literal | hexadecimal_literal;
 
-string_literal: STRING_LITERAL;
+string_literal:
+	SINGLE_QUOTE_STRING_LITERAL
+	| DOUBLE_QUOTE_STRING_LITERAL;
 
 decimal_literal: DECIMAL | REAL | FLOAT;
 
