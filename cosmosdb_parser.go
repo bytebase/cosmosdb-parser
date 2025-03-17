@@ -65,7 +65,7 @@ func cosmosdbparserParserInit() {
 	}
 	staticData.PredictionContextCache = antlr.NewPredictionContextCache()
 	staticData.serializedATN = []int32{
-		4, 1, 44, 312, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 2, 3, 7, 3, 2, 4, 7,
+		4, 1, 44, 316, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 2, 3, 7, 3, 2, 4, 7,
 		4, 2, 5, 7, 5, 2, 6, 7, 6, 2, 7, 7, 7, 2, 8, 7, 8, 2, 9, 7, 9, 2, 10, 7,
 		10, 2, 11, 7, 11, 2, 12, 7, 12, 2, 13, 7, 13, 2, 14, 7, 14, 2, 15, 7, 15,
 		2, 16, 7, 16, 2, 17, 7, 17, 2, 18, 7, 18, 2, 19, 7, 19, 2, 20, 7, 20, 2,
@@ -78,125 +78,127 @@ func cosmosdbparserParserInit() {
 		8, 8, 1, 8, 3, 8, 110, 8, 8, 1, 9, 1, 9, 1, 10, 1, 10, 1, 10, 5, 10, 117,
 		8, 10, 10, 10, 12, 10, 120, 9, 10, 1, 11, 1, 11, 3, 11, 124, 8, 11, 1,
 		11, 3, 11, 127, 8, 11, 1, 12, 1, 12, 1, 13, 1, 13, 1, 13, 1, 13, 1, 13,
-		1, 13, 1, 13, 1, 13, 1, 13, 1, 13, 1, 13, 1, 13, 1, 13, 3, 13, 144, 8,
-		13, 1, 13, 1, 13, 5, 13, 148, 8, 13, 10, 13, 12, 13, 151, 9, 13, 1, 14,
-		1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1,
-		14, 1, 14, 1, 14, 3, 14, 167, 8, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14,
-		1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1,
+		3, 13, 136, 8, 13, 1, 13, 1, 13, 1, 13, 1, 13, 1, 13, 1, 13, 1, 13, 1,
+		13, 1, 13, 1, 13, 3, 13, 148, 8, 13, 1, 13, 1, 13, 5, 13, 152, 8, 13, 10,
+		13, 12, 13, 155, 9, 13, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14,
+		1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 3, 14, 171, 8, 14, 1,
 		14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14,
-		3, 14, 195, 8, 14, 1, 14, 1, 14, 5, 14, 199, 8, 14, 10, 14, 12, 14, 202,
-		9, 14, 1, 15, 1, 15, 1, 16, 1, 16, 1, 17, 1, 17, 3, 17, 210, 8, 17, 1,
-		18, 1, 18, 1, 18, 1, 18, 1, 18, 1, 18, 1, 18, 5, 18, 219, 8, 18, 10, 18,
-		12, 18, 222, 9, 18, 1, 18, 1, 18, 1, 19, 1, 19, 1, 19, 1, 19, 1, 19, 5,
-		19, 231, 8, 19, 10, 19, 12, 19, 234, 9, 19, 1, 19, 1, 19, 1, 20, 1, 20,
-		1, 21, 1, 21, 1, 22, 1, 22, 1, 22, 1, 23, 1, 23, 1, 23, 1, 23, 1, 23, 1,
-		23, 1, 23, 3, 23, 252, 8, 23, 1, 24, 1, 24, 1, 24, 1, 24, 5, 24, 258, 8,
-		24, 10, 24, 12, 24, 261, 9, 24, 1, 24, 1, 24, 1, 25, 1, 25, 1, 25, 1, 25,
-		1, 25, 3, 25, 270, 8, 25, 1, 25, 1, 25, 1, 25, 1, 26, 1, 26, 1, 26, 1,
-		26, 5, 26, 279, 8, 26, 10, 26, 12, 26, 282, 9, 26, 3, 26, 284, 8, 26, 1,
-		26, 1, 26, 1, 27, 1, 27, 1, 28, 1, 28, 1, 29, 1, 29, 1, 30, 1, 30, 1, 31,
-		1, 31, 3, 31, 298, 8, 31, 1, 32, 1, 32, 1, 33, 1, 33, 1, 34, 1, 34, 1,
-		35, 1, 35, 1, 36, 1, 36, 1, 37, 1, 37, 1, 37, 0, 2, 26, 28, 38, 0, 2, 4,
-		6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42,
-		44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 0, 4, 3,
-		0, 1, 1, 28, 29, 31, 37, 1, 0, 28, 30, 1, 0, 8, 9, 1, 0, 40, 42, 312, 0,
-		76, 1, 0, 0, 0, 2, 79, 1, 0, 0, 0, 4, 84, 1, 0, 0, 0, 6, 92, 1, 0, 0, 0,
-		8, 94, 1, 0, 0, 0, 10, 97, 1, 0, 0, 0, 12, 100, 1, 0, 0, 0, 14, 102, 1,
-		0, 0, 0, 16, 104, 1, 0, 0, 0, 18, 111, 1, 0, 0, 0, 20, 113, 1, 0, 0, 0,
-		22, 121, 1, 0, 0, 0, 24, 128, 1, 0, 0, 0, 26, 130, 1, 0, 0, 0, 28, 166,
-		1, 0, 0, 0, 30, 203, 1, 0, 0, 0, 32, 205, 1, 0, 0, 0, 34, 209, 1, 0, 0,
-		0, 36, 211, 1, 0, 0, 0, 38, 225, 1, 0, 0, 0, 40, 237, 1, 0, 0, 0, 42, 239,
-		1, 0, 0, 0, 44, 241, 1, 0, 0, 0, 46, 251, 1, 0, 0, 0, 48, 253, 1, 0, 0,
-		0, 50, 269, 1, 0, 0, 0, 52, 274, 1, 0, 0, 0, 54, 287, 1, 0, 0, 0, 56, 289,
-		1, 0, 0, 0, 58, 291, 1, 0, 0, 0, 60, 293, 1, 0, 0, 0, 62, 297, 1, 0, 0,
-		0, 64, 299, 1, 0, 0, 0, 66, 301, 1, 0, 0, 0, 68, 303, 1, 0, 0, 0, 70, 305,
-		1, 0, 0, 0, 72, 307, 1, 0, 0, 0, 74, 309, 1, 0, 0, 0, 76, 77, 3, 2, 1,
-		0, 77, 78, 5, 0, 0, 1, 78, 1, 1, 0, 0, 0, 79, 80, 3, 4, 2, 0, 80, 82, 3,
-		8, 4, 0, 81, 83, 3, 10, 5, 0, 82, 81, 1, 0, 0, 0, 82, 83, 1, 0, 0, 0, 83,
-		3, 1, 0, 0, 0, 84, 85, 5, 3, 0, 0, 85, 86, 3, 6, 3, 0, 86, 5, 1, 0, 0,
-		0, 87, 93, 5, 1, 0, 0, 88, 90, 5, 5, 0, 0, 89, 88, 1, 0, 0, 0, 89, 90,
-		1, 0, 0, 0, 90, 91, 1, 0, 0, 0, 91, 93, 3, 20, 10, 0, 92, 87, 1, 0, 0,
-		0, 92, 89, 1, 0, 0, 0, 93, 7, 1, 0, 0, 0, 94, 95, 5, 4, 0, 0, 95, 96, 3,
-		12, 6, 0, 96, 9, 1, 0, 0, 0, 97, 98, 5, 12, 0, 0, 98, 99, 3, 28, 14, 0,
-		99, 11, 1, 0, 0, 0, 100, 101, 3, 14, 7, 0, 101, 13, 1, 0, 0, 0, 102, 103,
-		3, 16, 8, 0, 103, 15, 1, 0, 0, 0, 104, 109, 3, 18, 9, 0, 105, 107, 5, 2,
-		0, 0, 106, 105, 1, 0, 0, 0, 106, 107, 1, 0, 0, 0, 107, 108, 1, 0, 0, 0,
-		108, 110, 5, 38, 0, 0, 109, 106, 1, 0, 0, 0, 109, 110, 1, 0, 0, 0, 110,
-		17, 1, 0, 0, 0, 111, 112, 5, 38, 0, 0, 112, 19, 1, 0, 0, 0, 113, 118, 3,
-		22, 11, 0, 114, 115, 5, 24, 0, 0, 115, 117, 3, 22, 11, 0, 116, 114, 1,
-		0, 0, 0, 117, 120, 1, 0, 0, 0, 118, 116, 1, 0, 0, 0, 118, 119, 1, 0, 0,
-		0, 119, 21, 1, 0, 0, 0, 120, 118, 1, 0, 0, 0, 121, 126, 3, 26, 13, 0, 122,
-		124, 5, 2, 0, 0, 123, 122, 1, 0, 0, 0, 123, 124, 1, 0, 0, 0, 124, 125,
-		1, 0, 0, 0, 125, 127, 3, 24, 12, 0, 126, 123, 1, 0, 0, 0, 126, 127, 1,
-		0, 0, 0, 127, 23, 1, 0, 0, 0, 128, 129, 5, 38, 0, 0, 129, 25, 1, 0, 0,
-		0, 130, 131, 6, 13, -1, 0, 131, 132, 3, 74, 37, 0, 132, 149, 1, 0, 0, 0,
-		133, 134, 10, 2, 0, 0, 134, 135, 5, 25, 0, 0, 135, 148, 3, 70, 35, 0, 136,
-		137, 10, 1, 0, 0, 137, 143, 5, 18, 0, 0, 138, 139, 5, 23, 0, 0, 139, 140,
-		3, 70, 35, 0, 140, 141, 5, 23, 0, 0, 141, 144, 1, 0, 0, 0, 142, 144, 3,
-		72, 36, 0, 143, 138, 1, 0, 0, 0, 143, 142, 1, 0, 0, 0, 144, 145, 1, 0,
-		0, 0, 145, 146, 5, 19, 0, 0, 146, 148, 1, 0, 0, 0, 147, 133, 1, 0, 0, 0,
-		147, 136, 1, 0, 0, 0, 148, 151, 1, 0, 0, 0, 149, 147, 1, 0, 0, 0, 149,
-		150, 1, 0, 0, 0, 150, 27, 1, 0, 0, 0, 151, 149, 1, 0, 0, 0, 152, 153, 6,
-		14, -1, 0, 153, 167, 3, 46, 23, 0, 154, 167, 3, 74, 37, 0, 155, 167, 3,
-		44, 22, 0, 156, 157, 3, 42, 21, 0, 157, 158, 3, 28, 14, 7, 158, 167, 1,
-		0, 0, 0, 159, 167, 3, 34, 17, 0, 160, 167, 3, 32, 16, 0, 161, 167, 3, 30,
-		15, 0, 162, 163, 5, 20, 0, 0, 163, 164, 3, 28, 14, 0, 164, 165, 5, 21,
-		0, 0, 165, 167, 1, 0, 0, 0, 166, 152, 1, 0, 0, 0, 166, 154, 1, 0, 0, 0,
-		166, 155, 1, 0, 0, 0, 166, 156, 1, 0, 0, 0, 166, 159, 1, 0, 0, 0, 166,
-		160, 1, 0, 0, 0, 166, 161, 1, 0, 0, 0, 166, 162, 1, 0, 0, 0, 167, 200,
-		1, 0, 0, 0, 168, 169, 10, 11, 0, 0, 169, 170, 5, 13, 0, 0, 170, 199, 3,
-		28, 14, 12, 171, 172, 10, 10, 0, 0, 172, 173, 5, 14, 0, 0, 173, 199, 3,
-		28, 14, 11, 174, 175, 10, 6, 0, 0, 175, 176, 3, 40, 20, 0, 176, 177, 3,
-		28, 14, 7, 177, 199, 1, 0, 0, 0, 178, 179, 10, 5, 0, 0, 179, 180, 5, 26,
-		0, 0, 180, 181, 3, 28, 14, 0, 181, 182, 5, 27, 0, 0, 182, 183, 3, 28, 14,
-		6, 183, 199, 1, 0, 0, 0, 184, 185, 10, 9, 0, 0, 185, 186, 5, 25, 0, 0,
-		186, 199, 3, 70, 35, 0, 187, 188, 10, 8, 0, 0, 188, 194, 5, 18, 0, 0, 189,
-		190, 5, 23, 0, 0, 190, 191, 3, 70, 35, 0, 191, 192, 5, 23, 0, 0, 192, 195,
-		1, 0, 0, 0, 193, 195, 3, 72, 36, 0, 194, 189, 1, 0, 0, 0, 194, 193, 1,
-		0, 0, 0, 195, 196, 1, 0, 0, 0, 196, 197, 5, 19, 0, 0, 197, 199, 1, 0, 0,
-		0, 198, 168, 1, 0, 0, 0, 198, 171, 1, 0, 0, 0, 198, 174, 1, 0, 0, 0, 198,
-		178, 1, 0, 0, 0, 198, 184, 1, 0, 0, 0, 198, 187, 1, 0, 0, 0, 199, 202,
-		1, 0, 0, 0, 200, 198, 1, 0, 0, 0, 200, 201, 1, 0, 0, 0, 201, 29, 1, 0,
-		0, 0, 202, 200, 1, 0, 0, 0, 203, 204, 3, 52, 26, 0, 204, 31, 1, 0, 0, 0,
-		205, 206, 3, 48, 24, 0, 206, 33, 1, 0, 0, 0, 207, 210, 3, 36, 18, 0, 208,
-		210, 3, 38, 19, 0, 209, 207, 1, 0, 0, 0, 209, 208, 1, 0, 0, 0, 210, 35,
-		1, 0, 0, 0, 211, 212, 5, 11, 0, 0, 212, 213, 5, 25, 0, 0, 213, 214, 5,
-		38, 0, 0, 214, 215, 5, 20, 0, 0, 215, 220, 3, 28, 14, 0, 216, 217, 5, 24,
-		0, 0, 217, 219, 3, 28, 14, 0, 218, 216, 1, 0, 0, 0, 219, 222, 1, 0, 0,
-		0, 220, 218, 1, 0, 0, 0, 220, 221, 1, 0, 0, 0, 221, 223, 1, 0, 0, 0, 222,
-		220, 1, 0, 0, 0, 223, 224, 5, 21, 0, 0, 224, 37, 1, 0, 0, 0, 225, 226,
-		5, 38, 0, 0, 226, 227, 5, 20, 0, 0, 227, 232, 3, 28, 14, 0, 228, 229, 5,
-		24, 0, 0, 229, 231, 3, 28, 14, 0, 230, 228, 1, 0, 0, 0, 231, 234, 1, 0,
-		0, 0, 232, 230, 1, 0, 0, 0, 232, 233, 1, 0, 0, 0, 233, 235, 1, 0, 0, 0,
-		234, 232, 1, 0, 0, 0, 235, 236, 5, 21, 0, 0, 236, 39, 1, 0, 0, 0, 237,
-		238, 7, 0, 0, 0, 238, 41, 1, 0, 0, 0, 239, 240, 7, 1, 0, 0, 240, 43, 1,
-		0, 0, 0, 241, 242, 5, 15, 0, 0, 242, 243, 5, 38, 0, 0, 243, 45, 1, 0, 0,
-		0, 244, 252, 3, 56, 28, 0, 245, 252, 3, 58, 29, 0, 246, 252, 3, 60, 30,
-		0, 247, 252, 3, 62, 31, 0, 248, 252, 3, 54, 27, 0, 249, 252, 3, 52, 26,
-		0, 250, 252, 3, 48, 24, 0, 251, 244, 1, 0, 0, 0, 251, 245, 1, 0, 0, 0,
-		251, 246, 1, 0, 0, 0, 251, 247, 1, 0, 0, 0, 251, 248, 1, 0, 0, 0, 251,
-		249, 1, 0, 0, 0, 251, 250, 1, 0, 0, 0, 252, 47, 1, 0, 0, 0, 253, 254, 5,
-		16, 0, 0, 254, 259, 3, 50, 25, 0, 255, 256, 5, 24, 0, 0, 256, 258, 3, 50,
-		25, 0, 257, 255, 1, 0, 0, 0, 258, 261, 1, 0, 0, 0, 259, 257, 1, 0, 0, 0,
-		259, 260, 1, 0, 0, 0, 260, 262, 1, 0, 0, 0, 261, 259, 1, 0, 0, 0, 262,
-		263, 5, 17, 0, 0, 263, 49, 1, 0, 0, 0, 264, 270, 3, 70, 35, 0, 265, 266,
-		5, 23, 0, 0, 266, 267, 3, 70, 35, 0, 267, 268, 5, 23, 0, 0, 268, 270, 1,
-		0, 0, 0, 269, 264, 1, 0, 0, 0, 269, 265, 1, 0, 0, 0, 270, 271, 1, 0, 0,
-		0, 271, 272, 5, 24, 0, 0, 272, 273, 3, 46, 23, 0, 273, 51, 1, 0, 0, 0,
-		274, 283, 5, 18, 0, 0, 275, 280, 3, 46, 23, 0, 276, 277, 5, 24, 0, 0, 277,
-		279, 3, 46, 23, 0, 278, 276, 1, 0, 0, 0, 279, 282, 1, 0, 0, 0, 280, 278,
-		1, 0, 0, 0, 280, 281, 1, 0, 0, 0, 281, 284, 1, 0, 0, 0, 282, 280, 1, 0,
-		0, 0, 283, 275, 1, 0, 0, 0, 283, 284, 1, 0, 0, 0, 284, 285, 1, 0, 0, 0,
-		285, 286, 5, 19, 0, 0, 286, 53, 1, 0, 0, 0, 287, 288, 3, 64, 32, 0, 288,
-		55, 1, 0, 0, 0, 289, 290, 5, 6, 0, 0, 290, 57, 1, 0, 0, 0, 291, 292, 5,
-		7, 0, 0, 292, 59, 1, 0, 0, 0, 293, 294, 7, 2, 0, 0, 294, 61, 1, 0, 0, 0,
-		295, 298, 3, 66, 33, 0, 296, 298, 3, 68, 34, 0, 297, 295, 1, 0, 0, 0, 297,
-		296, 1, 0, 0, 0, 298, 63, 1, 0, 0, 0, 299, 300, 5, 44, 0, 0, 300, 65, 1,
-		0, 0, 0, 301, 302, 7, 3, 0, 0, 302, 67, 1, 0, 0, 0, 303, 304, 5, 43, 0,
-		0, 304, 69, 1, 0, 0, 0, 305, 306, 5, 38, 0, 0, 306, 71, 1, 0, 0, 0, 307,
-		308, 5, 40, 0, 0, 308, 73, 1, 0, 0, 0, 309, 310, 5, 38, 0, 0, 310, 75,
-		1, 0, 0, 0, 24, 82, 89, 92, 106, 109, 118, 123, 126, 143, 147, 149, 166,
-		194, 198, 200, 209, 220, 232, 251, 259, 269, 280, 283, 297,
+		1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1, 14, 1,
+		14, 1, 14, 1, 14, 1, 14, 1, 14, 3, 14, 199, 8, 14, 1, 14, 1, 14, 5, 14,
+		203, 8, 14, 10, 14, 12, 14, 206, 9, 14, 1, 15, 1, 15, 1, 16, 1, 16, 1,
+		17, 1, 17, 3, 17, 214, 8, 17, 1, 18, 1, 18, 1, 18, 1, 18, 1, 18, 1, 18,
+		1, 18, 5, 18, 223, 8, 18, 10, 18, 12, 18, 226, 9, 18, 1, 18, 1, 18, 1,
+		19, 1, 19, 1, 19, 1, 19, 1, 19, 5, 19, 235, 8, 19, 10, 19, 12, 19, 238,
+		9, 19, 1, 19, 1, 19, 1, 20, 1, 20, 1, 21, 1, 21, 1, 22, 1, 22, 1, 22, 1,
+		23, 1, 23, 1, 23, 1, 23, 1, 23, 1, 23, 1, 23, 3, 23, 256, 8, 23, 1, 24,
+		1, 24, 1, 24, 1, 24, 5, 24, 262, 8, 24, 10, 24, 12, 24, 265, 9, 24, 1,
+		24, 1, 24, 1, 25, 1, 25, 1, 25, 1, 25, 1, 25, 3, 25, 274, 8, 25, 1, 25,
+		1, 25, 1, 25, 1, 26, 1, 26, 1, 26, 1, 26, 5, 26, 283, 8, 26, 10, 26, 12,
+		26, 286, 9, 26, 3, 26, 288, 8, 26, 1, 26, 1, 26, 1, 27, 1, 27, 1, 28, 1,
+		28, 1, 29, 1, 29, 1, 30, 1, 30, 1, 31, 1, 31, 3, 31, 302, 8, 31, 1, 32,
+		1, 32, 1, 33, 1, 33, 1, 34, 1, 34, 1, 35, 1, 35, 1, 36, 1, 36, 1, 37, 1,
+		37, 1, 37, 0, 2, 26, 28, 38, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22,
+		24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58,
+		60, 62, 64, 66, 68, 70, 72, 74, 0, 4, 3, 0, 1, 1, 28, 29, 31, 37, 1, 0,
+		28, 30, 1, 0, 8, 9, 1, 0, 40, 42, 317, 0, 76, 1, 0, 0, 0, 2, 79, 1, 0,
+		0, 0, 4, 84, 1, 0, 0, 0, 6, 92, 1, 0, 0, 0, 8, 94, 1, 0, 0, 0, 10, 97,
+		1, 0, 0, 0, 12, 100, 1, 0, 0, 0, 14, 102, 1, 0, 0, 0, 16, 104, 1, 0, 0,
+		0, 18, 111, 1, 0, 0, 0, 20, 113, 1, 0, 0, 0, 22, 121, 1, 0, 0, 0, 24, 128,
+		1, 0, 0, 0, 26, 135, 1, 0, 0, 0, 28, 170, 1, 0, 0, 0, 30, 207, 1, 0, 0,
+		0, 32, 209, 1, 0, 0, 0, 34, 213, 1, 0, 0, 0, 36, 215, 1, 0, 0, 0, 38, 229,
+		1, 0, 0, 0, 40, 241, 1, 0, 0, 0, 42, 243, 1, 0, 0, 0, 44, 245, 1, 0, 0,
+		0, 46, 255, 1, 0, 0, 0, 48, 257, 1, 0, 0, 0, 50, 273, 1, 0, 0, 0, 52, 278,
+		1, 0, 0, 0, 54, 291, 1, 0, 0, 0, 56, 293, 1, 0, 0, 0, 58, 295, 1, 0, 0,
+		0, 60, 297, 1, 0, 0, 0, 62, 301, 1, 0, 0, 0, 64, 303, 1, 0, 0, 0, 66, 305,
+		1, 0, 0, 0, 68, 307, 1, 0, 0, 0, 70, 309, 1, 0, 0, 0, 72, 311, 1, 0, 0,
+		0, 74, 313, 1, 0, 0, 0, 76, 77, 3, 2, 1, 0, 77, 78, 5, 0, 0, 1, 78, 1,
+		1, 0, 0, 0, 79, 80, 3, 4, 2, 0, 80, 82, 3, 8, 4, 0, 81, 83, 3, 10, 5, 0,
+		82, 81, 1, 0, 0, 0, 82, 83, 1, 0, 0, 0, 83, 3, 1, 0, 0, 0, 84, 85, 5, 3,
+		0, 0, 85, 86, 3, 6, 3, 0, 86, 5, 1, 0, 0, 0, 87, 93, 5, 1, 0, 0, 88, 90,
+		5, 5, 0, 0, 89, 88, 1, 0, 0, 0, 89, 90, 1, 0, 0, 0, 90, 91, 1, 0, 0, 0,
+		91, 93, 3, 20, 10, 0, 92, 87, 1, 0, 0, 0, 92, 89, 1, 0, 0, 0, 93, 7, 1,
+		0, 0, 0, 94, 95, 5, 4, 0, 0, 95, 96, 3, 12, 6, 0, 96, 9, 1, 0, 0, 0, 97,
+		98, 5, 12, 0, 0, 98, 99, 3, 28, 14, 0, 99, 11, 1, 0, 0, 0, 100, 101, 3,
+		14, 7, 0, 101, 13, 1, 0, 0, 0, 102, 103, 3, 16, 8, 0, 103, 15, 1, 0, 0,
+		0, 104, 109, 3, 18, 9, 0, 105, 107, 5, 2, 0, 0, 106, 105, 1, 0, 0, 0, 106,
+		107, 1, 0, 0, 0, 107, 108, 1, 0, 0, 0, 108, 110, 5, 38, 0, 0, 109, 106,
+		1, 0, 0, 0, 109, 110, 1, 0, 0, 0, 110, 17, 1, 0, 0, 0, 111, 112, 5, 38,
+		0, 0, 112, 19, 1, 0, 0, 0, 113, 118, 3, 22, 11, 0, 114, 115, 5, 24, 0,
+		0, 115, 117, 3, 22, 11, 0, 116, 114, 1, 0, 0, 0, 117, 120, 1, 0, 0, 0,
+		118, 116, 1, 0, 0, 0, 118, 119, 1, 0, 0, 0, 119, 21, 1, 0, 0, 0, 120, 118,
+		1, 0, 0, 0, 121, 126, 3, 26, 13, 0, 122, 124, 5, 2, 0, 0, 123, 122, 1,
+		0, 0, 0, 123, 124, 1, 0, 0, 0, 124, 125, 1, 0, 0, 0, 125, 127, 3, 24, 12,
+		0, 126, 123, 1, 0, 0, 0, 126, 127, 1, 0, 0, 0, 127, 23, 1, 0, 0, 0, 128,
+		129, 5, 38, 0, 0, 129, 25, 1, 0, 0, 0, 130, 131, 6, 13, -1, 0, 131, 136,
+		3, 74, 37, 0, 132, 133, 3, 42, 21, 0, 133, 134, 3, 26, 13, 1, 134, 136,
+		1, 0, 0, 0, 135, 130, 1, 0, 0, 0, 135, 132, 1, 0, 0, 0, 136, 153, 1, 0,
+		0, 0, 137, 138, 10, 3, 0, 0, 138, 139, 5, 25, 0, 0, 139, 152, 3, 70, 35,
+		0, 140, 141, 10, 2, 0, 0, 141, 147, 5, 18, 0, 0, 142, 143, 5, 23, 0, 0,
+		143, 144, 3, 70, 35, 0, 144, 145, 5, 23, 0, 0, 145, 148, 1, 0, 0, 0, 146,
+		148, 3, 72, 36, 0, 147, 142, 1, 0, 0, 0, 147, 146, 1, 0, 0, 0, 148, 149,
+		1, 0, 0, 0, 149, 150, 5, 19, 0, 0, 150, 152, 1, 0, 0, 0, 151, 137, 1, 0,
+		0, 0, 151, 140, 1, 0, 0, 0, 152, 155, 1, 0, 0, 0, 153, 151, 1, 0, 0, 0,
+		153, 154, 1, 0, 0, 0, 154, 27, 1, 0, 0, 0, 155, 153, 1, 0, 0, 0, 156, 157,
+		6, 14, -1, 0, 157, 171, 3, 46, 23, 0, 158, 171, 3, 74, 37, 0, 159, 171,
+		3, 44, 22, 0, 160, 161, 3, 42, 21, 0, 161, 162, 3, 28, 14, 7, 162, 171,
+		1, 0, 0, 0, 163, 171, 3, 34, 17, 0, 164, 171, 3, 32, 16, 0, 165, 171, 3,
+		30, 15, 0, 166, 167, 5, 20, 0, 0, 167, 168, 3, 28, 14, 0, 168, 169, 5,
+		21, 0, 0, 169, 171, 1, 0, 0, 0, 170, 156, 1, 0, 0, 0, 170, 158, 1, 0, 0,
+		0, 170, 159, 1, 0, 0, 0, 170, 160, 1, 0, 0, 0, 170, 163, 1, 0, 0, 0, 170,
+		164, 1, 0, 0, 0, 170, 165, 1, 0, 0, 0, 170, 166, 1, 0, 0, 0, 171, 204,
+		1, 0, 0, 0, 172, 173, 10, 11, 0, 0, 173, 174, 5, 13, 0, 0, 174, 203, 3,
+		28, 14, 12, 175, 176, 10, 10, 0, 0, 176, 177, 5, 14, 0, 0, 177, 203, 3,
+		28, 14, 11, 178, 179, 10, 6, 0, 0, 179, 180, 3, 40, 20, 0, 180, 181, 3,
+		28, 14, 7, 181, 203, 1, 0, 0, 0, 182, 183, 10, 5, 0, 0, 183, 184, 5, 26,
+		0, 0, 184, 185, 3, 28, 14, 0, 185, 186, 5, 27, 0, 0, 186, 187, 3, 28, 14,
+		6, 187, 203, 1, 0, 0, 0, 188, 189, 10, 9, 0, 0, 189, 190, 5, 25, 0, 0,
+		190, 203, 3, 70, 35, 0, 191, 192, 10, 8, 0, 0, 192, 198, 5, 18, 0, 0, 193,
+		194, 5, 23, 0, 0, 194, 195, 3, 70, 35, 0, 195, 196, 5, 23, 0, 0, 196, 199,
+		1, 0, 0, 0, 197, 199, 3, 72, 36, 0, 198, 193, 1, 0, 0, 0, 198, 197, 1,
+		0, 0, 0, 199, 200, 1, 0, 0, 0, 200, 201, 5, 19, 0, 0, 201, 203, 1, 0, 0,
+		0, 202, 172, 1, 0, 0, 0, 202, 175, 1, 0, 0, 0, 202, 178, 1, 0, 0, 0, 202,
+		182, 1, 0, 0, 0, 202, 188, 1, 0, 0, 0, 202, 191, 1, 0, 0, 0, 203, 206,
+		1, 0, 0, 0, 204, 202, 1, 0, 0, 0, 204, 205, 1, 0, 0, 0, 205, 29, 1, 0,
+		0, 0, 206, 204, 1, 0, 0, 0, 207, 208, 3, 52, 26, 0, 208, 31, 1, 0, 0, 0,
+		209, 210, 3, 48, 24, 0, 210, 33, 1, 0, 0, 0, 211, 214, 3, 36, 18, 0, 212,
+		214, 3, 38, 19, 0, 213, 211, 1, 0, 0, 0, 213, 212, 1, 0, 0, 0, 214, 35,
+		1, 0, 0, 0, 215, 216, 5, 11, 0, 0, 216, 217, 5, 25, 0, 0, 217, 218, 5,
+		38, 0, 0, 218, 219, 5, 20, 0, 0, 219, 224, 3, 28, 14, 0, 220, 221, 5, 24,
+		0, 0, 221, 223, 3, 28, 14, 0, 222, 220, 1, 0, 0, 0, 223, 226, 1, 0, 0,
+		0, 224, 222, 1, 0, 0, 0, 224, 225, 1, 0, 0, 0, 225, 227, 1, 0, 0, 0, 226,
+		224, 1, 0, 0, 0, 227, 228, 5, 21, 0, 0, 228, 37, 1, 0, 0, 0, 229, 230,
+		5, 38, 0, 0, 230, 231, 5, 20, 0, 0, 231, 236, 3, 28, 14, 0, 232, 233, 5,
+		24, 0, 0, 233, 235, 3, 28, 14, 0, 234, 232, 1, 0, 0, 0, 235, 238, 1, 0,
+		0, 0, 236, 234, 1, 0, 0, 0, 236, 237, 1, 0, 0, 0, 237, 239, 1, 0, 0, 0,
+		238, 236, 1, 0, 0, 0, 239, 240, 5, 21, 0, 0, 240, 39, 1, 0, 0, 0, 241,
+		242, 7, 0, 0, 0, 242, 41, 1, 0, 0, 0, 243, 244, 7, 1, 0, 0, 244, 43, 1,
+		0, 0, 0, 245, 246, 5, 15, 0, 0, 246, 247, 5, 38, 0, 0, 247, 45, 1, 0, 0,
+		0, 248, 256, 3, 56, 28, 0, 249, 256, 3, 58, 29, 0, 250, 256, 3, 60, 30,
+		0, 251, 256, 3, 62, 31, 0, 252, 256, 3, 54, 27, 0, 253, 256, 3, 52, 26,
+		0, 254, 256, 3, 48, 24, 0, 255, 248, 1, 0, 0, 0, 255, 249, 1, 0, 0, 0,
+		255, 250, 1, 0, 0, 0, 255, 251, 1, 0, 0, 0, 255, 252, 1, 0, 0, 0, 255,
+		253, 1, 0, 0, 0, 255, 254, 1, 0, 0, 0, 256, 47, 1, 0, 0, 0, 257, 258, 5,
+		16, 0, 0, 258, 263, 3, 50, 25, 0, 259, 260, 5, 24, 0, 0, 260, 262, 3, 50,
+		25, 0, 261, 259, 1, 0, 0, 0, 262, 265, 1, 0, 0, 0, 263, 261, 1, 0, 0, 0,
+		263, 264, 1, 0, 0, 0, 264, 266, 1, 0, 0, 0, 265, 263, 1, 0, 0, 0, 266,
+		267, 5, 17, 0, 0, 267, 49, 1, 0, 0, 0, 268, 274, 3, 70, 35, 0, 269, 270,
+		5, 23, 0, 0, 270, 271, 3, 70, 35, 0, 271, 272, 5, 23, 0, 0, 272, 274, 1,
+		0, 0, 0, 273, 268, 1, 0, 0, 0, 273, 269, 1, 0, 0, 0, 274, 275, 1, 0, 0,
+		0, 275, 276, 5, 24, 0, 0, 276, 277, 3, 46, 23, 0, 277, 51, 1, 0, 0, 0,
+		278, 287, 5, 18, 0, 0, 279, 284, 3, 46, 23, 0, 280, 281, 5, 24, 0, 0, 281,
+		283, 3, 46, 23, 0, 282, 280, 1, 0, 0, 0, 283, 286, 1, 0, 0, 0, 284, 282,
+		1, 0, 0, 0, 284, 285, 1, 0, 0, 0, 285, 288, 1, 0, 0, 0, 286, 284, 1, 0,
+		0, 0, 287, 279, 1, 0, 0, 0, 287, 288, 1, 0, 0, 0, 288, 289, 1, 0, 0, 0,
+		289, 290, 5, 19, 0, 0, 290, 53, 1, 0, 0, 0, 291, 292, 3, 64, 32, 0, 292,
+		55, 1, 0, 0, 0, 293, 294, 5, 6, 0, 0, 294, 57, 1, 0, 0, 0, 295, 296, 5,
+		7, 0, 0, 296, 59, 1, 0, 0, 0, 297, 298, 7, 2, 0, 0, 298, 61, 1, 0, 0, 0,
+		299, 302, 3, 66, 33, 0, 300, 302, 3, 68, 34, 0, 301, 299, 1, 0, 0, 0, 301,
+		300, 1, 0, 0, 0, 302, 63, 1, 0, 0, 0, 303, 304, 5, 44, 0, 0, 304, 65, 1,
+		0, 0, 0, 305, 306, 7, 3, 0, 0, 306, 67, 1, 0, 0, 0, 307, 308, 5, 43, 0,
+		0, 308, 69, 1, 0, 0, 0, 309, 310, 5, 38, 0, 0, 310, 71, 1, 0, 0, 0, 311,
+		312, 5, 40, 0, 0, 312, 73, 1, 0, 0, 0, 313, 314, 5, 38, 0, 0, 314, 75,
+		1, 0, 0, 0, 25, 82, 89, 92, 106, 109, 118, 123, 126, 135, 147, 151, 153,
+		170, 198, 202, 204, 213, 224, 236, 255, 263, 273, 284, 287, 301,
 	}
 	deserializer := antlr.NewATNDeserializer(nil)
 	staticData.atn = deserializer.Deserialize(staticData.serializedATN)
@@ -870,7 +872,7 @@ func (p *CosmosDBParser) Select_specification() (localctx ISelect_specificationC
 			}
 		}
 
-	case CosmosDBParserDISTINCT_SYMBOL, CosmosDBParserIDENTIFIER:
+	case CosmosDBParserDISTINCT_SYMBOL, CosmosDBParserPLUS_SYMBOL, CosmosDBParserMINUS_SYMBOL, CosmosDBParserBIT_NOT_SYMBOL, CosmosDBParserIDENTIFIER:
 		p.EnterOuterAlt(localctx, 2)
 		p.SetState(89)
 		p.GetErrorHandler().Sync(p)
@@ -2128,6 +2130,7 @@ type IScalar_expressionContext interface {
 
 	// Getter signatures
 	Input_alias() IInput_aliasContext
+	Unary_operator() IUnary_operatorContext
 	Scalar_expression() IScalar_expressionContext
 	DOT_SYMBOL() antlr.TerminalNode
 	Property_name() IProperty_nameContext
@@ -2187,6 +2190,22 @@ func (s *Scalar_expressionContext) Input_alias() IInput_aliasContext {
 	}
 
 	return t.(IInput_aliasContext)
+}
+
+func (s *Scalar_expressionContext) Unary_operator() IUnary_operatorContext {
+	var t antlr.RuleContext
+	for _, ctx := range s.GetChildren() {
+		if _, ok := ctx.(IUnary_operatorContext); ok {
+			t = ctx.(antlr.RuleContext)
+			break
+		}
+	}
+
+	if t == nil {
+		return nil
+	}
+
+	return t.(IUnary_operatorContext)
 }
 
 func (s *Scalar_expressionContext) Scalar_expression() IScalar_expressionContext {
@@ -2303,18 +2322,40 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 	var _alt int
 
 	p.EnterOuterAlt(localctx, 1)
-	{
-		p.SetState(131)
-		p.Input_alias()
-	}
-
-	p.GetParserRuleContext().SetStop(p.GetTokenStream().LT(-1))
-	p.SetState(149)
+	p.SetState(135)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
 	}
-	_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 10, p.GetParserRuleContext())
+
+	switch p.GetTokenStream().LA(1) {
+	case CosmosDBParserIDENTIFIER:
+		{
+			p.SetState(131)
+			p.Input_alias()
+		}
+
+	case CosmosDBParserPLUS_SYMBOL, CosmosDBParserMINUS_SYMBOL, CosmosDBParserBIT_NOT_SYMBOL:
+		{
+			p.SetState(132)
+			p.Unary_operator()
+		}
+		{
+			p.SetState(133)
+			p.scalar_expression(1)
+		}
+
+	default:
+		p.SetError(antlr.NewNoViableAltException(p, nil, nil, nil, nil, nil))
+		goto errorExit
+	}
+	p.GetParserRuleContext().SetStop(p.GetTokenStream().LT(-1))
+	p.SetState(153)
+	p.GetErrorHandler().Sync(p)
+	if p.HasError() {
+		goto errorExit
+	}
+	_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 11, p.GetParserRuleContext())
 	if p.HasError() {
 		goto errorExit
 	}
@@ -2324,24 +2365,24 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 				p.TriggerExitRuleEvent()
 			}
 			_prevctx = localctx
-			p.SetState(147)
+			p.SetState(151)
 			p.GetErrorHandler().Sync(p)
 			if p.HasError() {
 				goto errorExit
 			}
 
-			switch p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 9, p.GetParserRuleContext()) {
+			switch p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 10, p.GetParserRuleContext()) {
 			case 1:
 				localctx = NewScalar_expressionContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression)
-				p.SetState(133)
+				p.SetState(137)
 
-				if !(p.Precpred(p.GetParserRuleContext(), 2)) {
-					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 2)", ""))
+				if !(p.Precpred(p.GetParserRuleContext(), 3)) {
+					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 3)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(134)
+					p.SetState(138)
 					p.Match(CosmosDBParserDOT_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -2349,28 +2390,28 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 					}
 				}
 				{
-					p.SetState(135)
+					p.SetState(139)
 					p.Property_name()
 				}
 
 			case 2:
 				localctx = NewScalar_expressionContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression)
-				p.SetState(136)
+				p.SetState(140)
 
-				if !(p.Precpred(p.GetParserRuleContext(), 1)) {
-					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 1)", ""))
+				if !(p.Precpred(p.GetParserRuleContext(), 2)) {
+					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 2)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(137)
+					p.SetState(141)
 					p.Match(CosmosDBParserLS_BRACKET_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
 						goto errorExit
 					}
 				}
-				p.SetState(143)
+				p.SetState(147)
 				p.GetErrorHandler().Sync(p)
 				if p.HasError() {
 					goto errorExit
@@ -2379,7 +2420,7 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 				switch p.GetTokenStream().LA(1) {
 				case CosmosDBParserDOUBLE_QUOTE_SYMBOL:
 					{
-						p.SetState(138)
+						p.SetState(142)
 						p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
 						if p.HasError() {
 							// Recognition error - abort rule
@@ -2387,11 +2428,11 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 						}
 					}
 					{
-						p.SetState(139)
+						p.SetState(143)
 						p.Property_name()
 					}
 					{
-						p.SetState(140)
+						p.SetState(144)
 						p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
 						if p.HasError() {
 							// Recognition error - abort rule
@@ -2401,7 +2442,7 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 
 				case CosmosDBParserDECIMAL:
 					{
-						p.SetState(142)
+						p.SetState(146)
 						p.Array_index()
 					}
 
@@ -2410,7 +2451,7 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 					goto errorExit
 				}
 				{
-					p.SetState(145)
+					p.SetState(149)
 					p.Match(CosmosDBParserRS_BRACKET_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -2423,12 +2464,12 @@ func (p *CosmosDBParser) scalar_expression(_p int) (localctx IScalar_expressionC
 			}
 
 		}
-		p.SetState(151)
+		p.SetState(155)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
 		}
-		_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 10, p.GetParserRuleContext())
+		_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 11, p.GetParserRuleContext())
 		if p.HasError() {
 			goto errorExit
 		}
@@ -2806,62 +2847,62 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 	var _alt int
 
 	p.EnterOuterAlt(localctx, 1)
-	p.SetState(166)
+	p.SetState(170)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
 	}
 
-	switch p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 11, p.GetParserRuleContext()) {
+	switch p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 12, p.GetParserRuleContext()) {
 	case 1:
 		{
-			p.SetState(153)
+			p.SetState(157)
 			p.Constant()
 		}
 
 	case 2:
 		{
-			p.SetState(154)
+			p.SetState(158)
 			p.Input_alias()
 		}
 
 	case 3:
 		{
-			p.SetState(155)
+			p.SetState(159)
 			p.Parameter_name()
 		}
 
 	case 4:
 		{
-			p.SetState(156)
+			p.SetState(160)
 			p.Unary_operator()
 		}
 		{
-			p.SetState(157)
+			p.SetState(161)
 			p.scalar_expression_in_where(7)
 		}
 
 	case 5:
 		{
-			p.SetState(159)
+			p.SetState(163)
 			p.Scalar_function_expression()
 		}
 
 	case 6:
 		{
-			p.SetState(160)
+			p.SetState(164)
 			p.Create_object_expression()
 		}
 
 	case 7:
 		{
-			p.SetState(161)
+			p.SetState(165)
 			p.Create_array_expression()
 		}
 
 	case 8:
 		{
-			p.SetState(162)
+			p.SetState(166)
 			p.Match(CosmosDBParserLR_BRACKET_SYMBOL)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -2869,11 +2910,11 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 			}
 		}
 		{
-			p.SetState(163)
+			p.SetState(167)
 			p.scalar_expression_in_where(0)
 		}
 		{
-			p.SetState(164)
+			p.SetState(168)
 			p.Match(CosmosDBParserRR_BRACKET_SYMBOL)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -2885,12 +2926,12 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 		goto errorExit
 	}
 	p.GetParserRuleContext().SetStop(p.GetTokenStream().LT(-1))
-	p.SetState(200)
+	p.SetState(204)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
 	}
-	_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 14, p.GetParserRuleContext())
+	_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 15, p.GetParserRuleContext())
 	if p.HasError() {
 		goto errorExit
 	}
@@ -2900,24 +2941,24 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 				p.TriggerExitRuleEvent()
 			}
 			_prevctx = localctx
-			p.SetState(198)
+			p.SetState(202)
 			p.GetErrorHandler().Sync(p)
 			if p.HasError() {
 				goto errorExit
 			}
 
-			switch p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 13, p.GetParserRuleContext()) {
+			switch p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 14, p.GetParserRuleContext()) {
 			case 1:
 				localctx = NewScalar_expression_in_whereContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression_in_where)
-				p.SetState(168)
+				p.SetState(172)
 
 				if !(p.Precpred(p.GetParserRuleContext(), 11)) {
 					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 11)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(169)
+					p.SetState(173)
 					p.Match(CosmosDBParserAND_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -2925,21 +2966,21 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 					}
 				}
 				{
-					p.SetState(170)
+					p.SetState(174)
 					p.scalar_expression_in_where(12)
 				}
 
 			case 2:
 				localctx = NewScalar_expression_in_whereContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression_in_where)
-				p.SetState(171)
+				p.SetState(175)
 
 				if !(p.Precpred(p.GetParserRuleContext(), 10)) {
 					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 10)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(172)
+					p.SetState(176)
 					p.Match(CosmosDBParserOR_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -2947,39 +2988,39 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 					}
 				}
 				{
-					p.SetState(173)
+					p.SetState(177)
 					p.scalar_expression_in_where(11)
 				}
 
 			case 3:
 				localctx = NewScalar_expression_in_whereContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression_in_where)
-				p.SetState(174)
+				p.SetState(178)
 
 				if !(p.Precpred(p.GetParserRuleContext(), 6)) {
 					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 6)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(175)
+					p.SetState(179)
 					p.Binary_operator()
 				}
 				{
-					p.SetState(176)
+					p.SetState(180)
 					p.scalar_expression_in_where(7)
 				}
 
 			case 4:
 				localctx = NewScalar_expression_in_whereContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression_in_where)
-				p.SetState(178)
+				p.SetState(182)
 
 				if !(p.Precpred(p.GetParserRuleContext(), 5)) {
 					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 5)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(179)
+					p.SetState(183)
 					p.Match(CosmosDBParserQUESTION_MARK_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -2987,11 +3028,11 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 					}
 				}
 				{
-					p.SetState(180)
+					p.SetState(184)
 					p.scalar_expression_in_where(0)
 				}
 				{
-					p.SetState(181)
+					p.SetState(185)
 					p.Match(CosmosDBParserCOLON_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -2999,21 +3040,21 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 					}
 				}
 				{
-					p.SetState(182)
+					p.SetState(186)
 					p.scalar_expression_in_where(6)
 				}
 
 			case 5:
 				localctx = NewScalar_expression_in_whereContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression_in_where)
-				p.SetState(184)
+				p.SetState(188)
 
 				if !(p.Precpred(p.GetParserRuleContext(), 9)) {
 					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 9)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(185)
+					p.SetState(189)
 					p.Match(CosmosDBParserDOT_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -3021,28 +3062,28 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 					}
 				}
 				{
-					p.SetState(186)
+					p.SetState(190)
 					p.Property_name()
 				}
 
 			case 6:
 				localctx = NewScalar_expression_in_whereContext(p, _parentctx, _parentState)
 				p.PushNewRecursionContext(localctx, _startState, CosmosDBParserRULE_scalar_expression_in_where)
-				p.SetState(187)
+				p.SetState(191)
 
 				if !(p.Precpred(p.GetParserRuleContext(), 8)) {
 					p.SetError(antlr.NewFailedPredicateException(p, "p.Precpred(p.GetParserRuleContext(), 8)", ""))
 					goto errorExit
 				}
 				{
-					p.SetState(188)
+					p.SetState(192)
 					p.Match(CosmosDBParserLS_BRACKET_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
 						goto errorExit
 					}
 				}
-				p.SetState(194)
+				p.SetState(198)
 				p.GetErrorHandler().Sync(p)
 				if p.HasError() {
 					goto errorExit
@@ -3051,7 +3092,7 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 				switch p.GetTokenStream().LA(1) {
 				case CosmosDBParserDOUBLE_QUOTE_SYMBOL:
 					{
-						p.SetState(189)
+						p.SetState(193)
 						p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
 						if p.HasError() {
 							// Recognition error - abort rule
@@ -3059,11 +3100,11 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 						}
 					}
 					{
-						p.SetState(190)
+						p.SetState(194)
 						p.Property_name()
 					}
 					{
-						p.SetState(191)
+						p.SetState(195)
 						p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
 						if p.HasError() {
 							// Recognition error - abort rule
@@ -3073,7 +3114,7 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 
 				case CosmosDBParserDECIMAL:
 					{
-						p.SetState(193)
+						p.SetState(197)
 						p.Array_index()
 					}
 
@@ -3082,7 +3123,7 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 					goto errorExit
 				}
 				{
-					p.SetState(196)
+					p.SetState(200)
 					p.Match(CosmosDBParserRS_BRACKET_SYMBOL)
 					if p.HasError() {
 						// Recognition error - abort rule
@@ -3095,12 +3136,12 @@ func (p *CosmosDBParser) scalar_expression_in_where(_p int) (localctx IScalar_ex
 			}
 
 		}
-		p.SetState(202)
+		p.SetState(206)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
 		}
-		_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 14, p.GetParserRuleContext())
+		_alt = p.GetInterpreter().AdaptivePredict(p.BaseParser, p.GetTokenStream(), 15, p.GetParserRuleContext())
 		if p.HasError() {
 			goto errorExit
 		}
@@ -3216,7 +3257,7 @@ func (p *CosmosDBParser) Create_array_expression() (localctx ICreate_array_expre
 	p.EnterRule(localctx, 30, CosmosDBParserRULE_create_array_expression)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(203)
+		p.SetState(207)
 		p.Array_constant()
 	}
 
@@ -3330,7 +3371,7 @@ func (p *CosmosDBParser) Create_object_expression() (localctx ICreate_object_exp
 	p.EnterRule(localctx, 32, CosmosDBParserRULE_create_object_expression)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(205)
+		p.SetState(209)
 		p.Object_constant()
 	}
 
@@ -3459,7 +3500,7 @@ func (s *Scalar_function_expressionContext) Accept(visitor antlr.ParseTreeVisito
 func (p *CosmosDBParser) Scalar_function_expression() (localctx IScalar_function_expressionContext) {
 	localctx = NewScalar_function_expressionContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 34, CosmosDBParserRULE_scalar_function_expression)
-	p.SetState(209)
+	p.SetState(213)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -3469,14 +3510,14 @@ func (p *CosmosDBParser) Scalar_function_expression() (localctx IScalar_function
 	case CosmosDBParserUDF_SYMBOL:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(207)
+			p.SetState(211)
 			p.Udf_scalar_function_expression()
 		}
 
 	case CosmosDBParserIDENTIFIER:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(208)
+			p.SetState(212)
 			p.Builtin_function_expression()
 		}
 
@@ -3658,7 +3699,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(211)
+		p.SetState(215)
 		p.Match(CosmosDBParserUDF_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -3666,7 +3707,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 		}
 	}
 	{
-		p.SetState(212)
+		p.SetState(216)
 		p.Match(CosmosDBParserDOT_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -3674,7 +3715,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 		}
 	}
 	{
-		p.SetState(213)
+		p.SetState(217)
 		p.Match(CosmosDBParserIDENTIFIER)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -3682,7 +3723,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 		}
 	}
 	{
-		p.SetState(214)
+		p.SetState(218)
 		p.Match(CosmosDBParserLR_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -3691,10 +3732,10 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 	}
 
 	{
-		p.SetState(215)
+		p.SetState(219)
 		p.scalar_expression_in_where(0)
 	}
-	p.SetState(220)
+	p.SetState(224)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -3703,7 +3744,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 
 	for _la == CosmosDBParserCOMMA_SYMBOL {
 		{
-			p.SetState(216)
+			p.SetState(220)
 			p.Match(CosmosDBParserCOMMA_SYMBOL)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -3711,11 +3752,11 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 			}
 		}
 		{
-			p.SetState(217)
+			p.SetState(221)
 			p.scalar_expression_in_where(0)
 		}
 
-		p.SetState(222)
+		p.SetState(226)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -3724,7 +3765,7 @@ func (p *CosmosDBParser) Udf_scalar_function_expression() (localctx IUdf_scalar_
 	}
 
 	{
-		p.SetState(223)
+		p.SetState(227)
 		p.Match(CosmosDBParserRR_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -3895,7 +3936,7 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(225)
+		p.SetState(229)
 		p.Match(CosmosDBParserIDENTIFIER)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -3903,7 +3944,7 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 		}
 	}
 	{
-		p.SetState(226)
+		p.SetState(230)
 		p.Match(CosmosDBParserLR_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -3912,10 +3953,10 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 	}
 
 	{
-		p.SetState(227)
+		p.SetState(231)
 		p.scalar_expression_in_where(0)
 	}
-	p.SetState(232)
+	p.SetState(236)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -3924,7 +3965,7 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 
 	for _la == CosmosDBParserCOMMA_SYMBOL {
 		{
-			p.SetState(228)
+			p.SetState(232)
 			p.Match(CosmosDBParserCOMMA_SYMBOL)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -3932,11 +3973,11 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 			}
 		}
 		{
-			p.SetState(229)
+			p.SetState(233)
 			p.scalar_expression_in_where(0)
 		}
 
-		p.SetState(234)
+		p.SetState(238)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -3945,7 +3986,7 @@ func (p *CosmosDBParser) Builtin_function_expression() (localctx IBuiltin_functi
 	}
 
 	{
-		p.SetState(235)
+		p.SetState(239)
 		p.Match(CosmosDBParserRR_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -4098,7 +4139,7 @@ func (p *CosmosDBParser) Binary_operator() (localctx IBinary_operatorContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(237)
+		p.SetState(241)
 		_la = p.GetTokenStream().LA(1)
 
 		if !((int64(_la) & ^0x3f) == 0 && ((int64(1)<<_la)&273535729666) != 0) {
@@ -4219,7 +4260,7 @@ func (p *CosmosDBParser) Unary_operator() (localctx IUnary_operatorContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(239)
+		p.SetState(243)
 		_la = p.GetTokenStream().LA(1)
 
 		if !((int64(_la) & ^0x3f) == 0 && ((int64(1)<<_la)&1879048192) != 0) {
@@ -4333,7 +4374,7 @@ func (p *CosmosDBParser) Parameter_name() (localctx IParameter_nameContext) {
 	p.EnterRule(localctx, 44, CosmosDBParserRULE_parameter_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(241)
+		p.SetState(245)
 		p.Match(CosmosDBParserAT_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -4341,7 +4382,7 @@ func (p *CosmosDBParser) Parameter_name() (localctx IParameter_nameContext) {
 		}
 	}
 	{
-		p.SetState(242)
+		p.SetState(246)
 		p.Match(CosmosDBParserIDENTIFIER)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -4559,7 +4600,7 @@ func (s *ConstantContext) Accept(visitor antlr.ParseTreeVisitor) interface{} {
 func (p *CosmosDBParser) Constant() (localctx IConstantContext) {
 	localctx = NewConstantContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 46, CosmosDBParserRULE_constant)
-	p.SetState(251)
+	p.SetState(255)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -4569,49 +4610,49 @@ func (p *CosmosDBParser) Constant() (localctx IConstantContext) {
 	case CosmosDBParserUNDEFINED_SYMBOL:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(244)
+			p.SetState(248)
 			p.Undefined_constant()
 		}
 
 	case CosmosDBParserNULL_SYMBOL:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(245)
+			p.SetState(249)
 			p.Null_constant()
 		}
 
 	case CosmosDBParserFALSE_SYMBOL, CosmosDBParserTRUE_SYMBOL:
 		p.EnterOuterAlt(localctx, 3)
 		{
-			p.SetState(246)
+			p.SetState(250)
 			p.Boolean_constant()
 		}
 
 	case CosmosDBParserDECIMAL, CosmosDBParserREAL, CosmosDBParserFLOAT, CosmosDBParserHEXADECIMAL:
 		p.EnterOuterAlt(localctx, 4)
 		{
-			p.SetState(247)
+			p.SetState(251)
 			p.Number_constant()
 		}
 
 	case CosmosDBParserSTRING_LITERAL:
 		p.EnterOuterAlt(localctx, 5)
 		{
-			p.SetState(248)
+			p.SetState(252)
 			p.String_constant()
 		}
 
 	case CosmosDBParserLS_BRACKET_SYMBOL:
 		p.EnterOuterAlt(localctx, 6)
 		{
-			p.SetState(249)
+			p.SetState(253)
 			p.Array_constant()
 		}
 
 	case CosmosDBParserLC_BRACKET_SYMBOL:
 		p.EnterOuterAlt(localctx, 7)
 		{
-			p.SetState(250)
+			p.SetState(254)
 			p.Object_constant()
 		}
 
@@ -4778,7 +4819,7 @@ func (p *CosmosDBParser) Object_constant() (localctx IObject_constantContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(253)
+		p.SetState(257)
 		p.Match(CosmosDBParserLC_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -4787,10 +4828,10 @@ func (p *CosmosDBParser) Object_constant() (localctx IObject_constantContext) {
 	}
 
 	{
-		p.SetState(254)
+		p.SetState(258)
 		p.Object_constant_field_pair()
 	}
-	p.SetState(259)
+	p.SetState(263)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -4799,7 +4840,7 @@ func (p *CosmosDBParser) Object_constant() (localctx IObject_constantContext) {
 
 	for _la == CosmosDBParserCOMMA_SYMBOL {
 		{
-			p.SetState(255)
+			p.SetState(259)
 			p.Match(CosmosDBParserCOMMA_SYMBOL)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -4807,11 +4848,11 @@ func (p *CosmosDBParser) Object_constant() (localctx IObject_constantContext) {
 			}
 		}
 		{
-			p.SetState(256)
+			p.SetState(260)
 			p.Object_constant_field_pair()
 		}
 
-		p.SetState(261)
+		p.SetState(265)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -4820,7 +4861,7 @@ func (p *CosmosDBParser) Object_constant() (localctx IObject_constantContext) {
 	}
 
 	{
-		p.SetState(262)
+		p.SetState(266)
 		p.Match(CosmosDBParserRC_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -4969,7 +5010,7 @@ func (p *CosmosDBParser) Object_constant_field_pair() (localctx IObject_constant
 	localctx = NewObject_constant_field_pairContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 50, CosmosDBParserRULE_object_constant_field_pair)
 	p.EnterOuterAlt(localctx, 1)
-	p.SetState(269)
+	p.SetState(273)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -4978,13 +5019,13 @@ func (p *CosmosDBParser) Object_constant_field_pair() (localctx IObject_constant
 	switch p.GetTokenStream().LA(1) {
 	case CosmosDBParserIDENTIFIER:
 		{
-			p.SetState(264)
+			p.SetState(268)
 			p.Property_name()
 		}
 
 	case CosmosDBParserDOUBLE_QUOTE_SYMBOL:
 		{
-			p.SetState(265)
+			p.SetState(269)
 			p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -4992,11 +5033,11 @@ func (p *CosmosDBParser) Object_constant_field_pair() (localctx IObject_constant
 			}
 		}
 		{
-			p.SetState(266)
+			p.SetState(270)
 			p.Property_name()
 		}
 		{
-			p.SetState(267)
+			p.SetState(271)
 			p.Match(CosmosDBParserDOUBLE_QUOTE_SYMBOL)
 			if p.HasError() {
 				// Recognition error - abort rule
@@ -5009,7 +5050,7 @@ func (p *CosmosDBParser) Object_constant_field_pair() (localctx IObject_constant
 		goto errorExit
 	}
 	{
-		p.SetState(271)
+		p.SetState(275)
 		p.Match(CosmosDBParserCOMMA_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -5017,7 +5058,7 @@ func (p *CosmosDBParser) Object_constant_field_pair() (localctx IObject_constant
 		}
 	}
 	{
-		p.SetState(272)
+		p.SetState(276)
 		p.Constant()
 	}
 
@@ -5179,14 +5220,14 @@ func (p *CosmosDBParser) Array_constant() (localctx IArray_constantContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(274)
+		p.SetState(278)
 		p.Match(CosmosDBParserLS_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
 			goto errorExit
 		}
 	}
-	p.SetState(283)
+	p.SetState(287)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -5195,10 +5236,10 @@ func (p *CosmosDBParser) Array_constant() (localctx IArray_constantContext) {
 
 	if (int64(_la) & ^0x3f) == 0 && ((int64(1)<<_la)&34084860789696) != 0 {
 		{
-			p.SetState(275)
+			p.SetState(279)
 			p.Constant()
 		}
-		p.SetState(280)
+		p.SetState(284)
 		p.GetErrorHandler().Sync(p)
 		if p.HasError() {
 			goto errorExit
@@ -5207,7 +5248,7 @@ func (p *CosmosDBParser) Array_constant() (localctx IArray_constantContext) {
 
 		for _la == CosmosDBParserCOMMA_SYMBOL {
 			{
-				p.SetState(276)
+				p.SetState(280)
 				p.Match(CosmosDBParserCOMMA_SYMBOL)
 				if p.HasError() {
 					// Recognition error - abort rule
@@ -5215,11 +5256,11 @@ func (p *CosmosDBParser) Array_constant() (localctx IArray_constantContext) {
 				}
 			}
 			{
-				p.SetState(277)
+				p.SetState(281)
 				p.Constant()
 			}
 
-			p.SetState(282)
+			p.SetState(286)
 			p.GetErrorHandler().Sync(p)
 			if p.HasError() {
 				goto errorExit
@@ -5229,7 +5270,7 @@ func (p *CosmosDBParser) Array_constant() (localctx IArray_constantContext) {
 
 	}
 	{
-		p.SetState(285)
+		p.SetState(289)
 		p.Match(CosmosDBParserRS_BRACKET_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -5347,7 +5388,7 @@ func (p *CosmosDBParser) String_constant() (localctx IString_constantContext) {
 	p.EnterRule(localctx, 54, CosmosDBParserRULE_string_constant)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(287)
+		p.SetState(291)
 		p.String_literal()
 	}
 
@@ -5449,7 +5490,7 @@ func (p *CosmosDBParser) Undefined_constant() (localctx IUndefined_constantConte
 	p.EnterRule(localctx, 56, CosmosDBParserRULE_undefined_constant)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(289)
+		p.SetState(293)
 		p.Match(CosmosDBParserUNDEFINED_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -5555,7 +5596,7 @@ func (p *CosmosDBParser) Null_constant() (localctx INull_constantContext) {
 	p.EnterRule(localctx, 58, CosmosDBParserRULE_null_constant)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(291)
+		p.SetState(295)
 		p.Match(CosmosDBParserNULL_SYMBOL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -5668,7 +5709,7 @@ func (p *CosmosDBParser) Boolean_constant() (localctx IBoolean_constantContext) 
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(293)
+		p.SetState(297)
 		_la = p.GetTokenStream().LA(1)
 
 		if !(_la == CosmosDBParserFALSE_SYMBOL || _la == CosmosDBParserTRUE_SYMBOL) {
@@ -5804,7 +5845,7 @@ func (s *Number_constantContext) Accept(visitor antlr.ParseTreeVisitor) interfac
 func (p *CosmosDBParser) Number_constant() (localctx INumber_constantContext) {
 	localctx = NewNumber_constantContext(p, p.GetParserRuleContext(), p.GetState())
 	p.EnterRule(localctx, 62, CosmosDBParserRULE_number_constant)
-	p.SetState(297)
+	p.SetState(301)
 	p.GetErrorHandler().Sync(p)
 	if p.HasError() {
 		goto errorExit
@@ -5814,14 +5855,14 @@ func (p *CosmosDBParser) Number_constant() (localctx INumber_constantContext) {
 	case CosmosDBParserDECIMAL, CosmosDBParserREAL, CosmosDBParserFLOAT:
 		p.EnterOuterAlt(localctx, 1)
 		{
-			p.SetState(295)
+			p.SetState(299)
 			p.Decimal_literal()
 		}
 
 	case CosmosDBParserHEXADECIMAL:
 		p.EnterOuterAlt(localctx, 2)
 		{
-			p.SetState(296)
+			p.SetState(300)
 			p.Hexadecimal_literal()
 		}
 
@@ -5928,7 +5969,7 @@ func (p *CosmosDBParser) String_literal() (localctx IString_literalContext) {
 	p.EnterRule(localctx, 64, CosmosDBParserRULE_string_literal)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(299)
+		p.SetState(303)
 		p.Match(CosmosDBParserSTRING_LITERAL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -6046,7 +6087,7 @@ func (p *CosmosDBParser) Decimal_literal() (localctx IDecimal_literalContext) {
 
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(301)
+		p.SetState(305)
 		_la = p.GetTokenStream().LA(1)
 
 		if !((int64(_la) & ^0x3f) == 0 && ((int64(1)<<_la)&7696581394432) != 0) {
@@ -6155,7 +6196,7 @@ func (p *CosmosDBParser) Hexadecimal_literal() (localctx IHexadecimal_literalCon
 	p.EnterRule(localctx, 68, CosmosDBParserRULE_hexadecimal_literal)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(303)
+		p.SetState(307)
 		p.Match(CosmosDBParserHEXADECIMAL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -6261,7 +6302,7 @@ func (p *CosmosDBParser) Property_name() (localctx IProperty_nameContext) {
 	p.EnterRule(localctx, 70, CosmosDBParserRULE_property_name)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(305)
+		p.SetState(309)
 		p.Match(CosmosDBParserIDENTIFIER)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -6367,7 +6408,7 @@ func (p *CosmosDBParser) Array_index() (localctx IArray_indexContext) {
 	p.EnterRule(localctx, 72, CosmosDBParserRULE_array_index)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(307)
+		p.SetState(311)
 		p.Match(CosmosDBParserDECIMAL)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -6473,7 +6514,7 @@ func (p *CosmosDBParser) Input_alias() (localctx IInput_aliasContext) {
 	p.EnterRule(localctx, 74, CosmosDBParserRULE_input_alias)
 	p.EnterOuterAlt(localctx, 1)
 	{
-		p.SetState(309)
+		p.SetState(313)
 		p.Match(CosmosDBParserIDENTIFIER)
 		if p.HasError() {
 			// Recognition error - abort rule
@@ -6518,10 +6559,10 @@ func (p *CosmosDBParser) Sempred(localctx antlr.RuleContext, ruleIndex, predInde
 func (p *CosmosDBParser) Scalar_expression_Sempred(localctx antlr.RuleContext, predIndex int) bool {
 	switch predIndex {
 	case 0:
-		return p.Precpred(p.GetParserRuleContext(), 2)
+		return p.Precpred(p.GetParserRuleContext(), 3)
 
 	case 1:
-		return p.Precpred(p.GetParserRuleContext(), 1)
+		return p.Precpred(p.GetParserRuleContext(), 2)
 
 	default:
 		panic("No predicate with index: " + fmt.Sprint(predIndex))

@@ -40,7 +40,8 @@ scalar_expression:
 	| scalar_expression LS_BRACKET_SYMBOL (
 		(DOUBLE_QUOTE_SYMBOL property_name DOUBLE_QUOTE_SYMBOL)
 		| (array_index)
-	) RS_BRACKET_SYMBOL;
+	) RS_BRACKET_SYMBOL
+	| unary_operator scalar_expression;
 
 // TODO(zp): Merge scalar_expression and scalar_expression_in_where while supporting the project
 // fully. https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/scalar-expressions
